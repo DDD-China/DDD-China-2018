@@ -183,6 +183,9 @@ a {
   margin: 40px auto;
 }
 .topic-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 45%;
   background-repeat: no-repeat;
 }
@@ -577,10 +580,11 @@ a {
   background-size: cover;
 }
 .six-topics .topic-item p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   width: 50%;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
+  margin-top: 0px;
 }
 .six-topics .topic-item:nth-child(odd) p {
   padding-left: 50px;
