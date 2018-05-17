@@ -1,0 +1,31 @@
+{
+  "name": "web-ddd",
+  "version": "0.0.1",
+  "description": "Websites for DDD-China",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/stringlc/web-DDD.git"
+  },
+  "author": "Congliu XinWang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/stringlc/web-DDD/issues"
+  },
+  "scripts": {
+    "build": "gulp watch"
+  },
+  "homepage": "https://gitlab.com/stringlc/web-DDD#README",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.2.0",
+    "gulp-include-file": "^0.1.1",
+    "gulp-js-minify": "^0.0.3",
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
+  }
+}

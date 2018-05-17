@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>DDD China Homepage</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="../js/lib/jquery-3.2.1.min.js"></script>
+    <link rel="icon" href="../resource/favicon.ico">
+</head>
+<body>
+<div class="grid-wrapper">
+    <div class="grid">
+        <div class="grid-cell">
+            <div class="header_wrapper navbar">
+                <a class="header_logo" href="../index.html"><img src="../resource/DDD-logo-03.png" alt="DDD-logo"></a>
+                <div class="header_tabs">
+                    <ul class="menu-items">
+                        <li class="menu-item"><a href="../index.html#agenda">专题演讲及日程安排</a></li>
+                        <li class="menu-item"><a href="../index.html#speakers-introduction">讲师介绍</a>
+                        </li>
+                        <li class="menu-item"><a href="../index.html#conf-introduction">大会简介</a></li>
+                        <li class="menu-item"><a href="../index.html#partners">合作伙伴</a></li>
+                        <li class="menu-item"><a href="../index.html#location">会议地点</a></li>
+                        <li class="menu-item menu-item-selected"><a href="#">工作坊</a></li>
+                        <li class="menu-item"><a href="../topic-gathering.html">提案征集</a></li>
+                    </ul>
+                </div>
+                <div class="color-gray" id="booking-ticket">
+                    <a class="color-text-white" href="../booking-tickets.html" target="_blank"><span><img src="../resource/ticket_icon.png" alt="ticket"></span>购买门票</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+  <div class="grid-wrapper">
+      <div class="grid centered">
+          <div class="grid-cell top-banner workshop">
+              <div class="block">
+                  <a class="button color-black color-text-white color-border-white workshop" href="../booking-tickets.html">购买门票</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="workshop">
+  <div class="grid-wrapper grid-space">
+    @@include('../../includes/workshop-schedule.html')
+  </div>
+</div>
+
+@@include('../../includes/footer-additional.html')
+</body>
+
+<script type="text/javascript" src="../js/lib/main.min.js"></script>
+</html>
