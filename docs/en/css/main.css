@@ -22,7 +22,7 @@ a {
   width: 100%;
   background-color: white;
   z-index: 1001;
-  min-width: 1080px;
+  min-width: 1200px;
 }
 .main-container {
   padding-top: 43px;
@@ -529,8 +529,7 @@ a {
   font-size: 24px;
 }
 .conf-date-location .flexbox-item img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
 }
 #conf-introduction .words p {
   margin-bottom: 20px;
@@ -567,10 +566,12 @@ a {
   height: 300px;
 }
 .six-topics .topic-item div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   font-weight: bold;
   font-size: 30px;
-  padding-top: 110px;
   width: 50%;
   background-repeat: no-repeat;
   background-size: cover;
