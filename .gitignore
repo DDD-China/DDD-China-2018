@@ -4,5 +4,6 @@ package-lock.json
 yarn.lock
 
 docs/*.html
+docs/**/*.html
 docs/en/*.html
 docs/resource/video/*.mp4
