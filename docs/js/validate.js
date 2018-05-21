@@ -22,7 +22,7 @@ function show_form_wrongmessage(form_name) {
     show_info_message(form_name, "<p>There is something wrong, maybe you can try another email.</p>");
 }
 
-console.log('aaa', $('form.subscription'))
+// console.log('aaa', $('form.subscription'))
 
 $('form.subscription').on('submit', function () {
     event.preventDefault();
