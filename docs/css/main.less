@@ -371,15 +371,16 @@ a {
 
 //speaker intro
 .speakers {
-  justify-content: space-around;
+  justify-content: center;
   align-content: stretch;
+  flex-wrap: wrap;
 }
 
 .speaker-container {
   .flexbox-item;
 
   @media screen and (min-width: 768px) {
-    max-width: 150px;
+    width: 250px;
     height: 350px;
     display: inline-block;
   }
@@ -393,34 +394,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  filter: grayscale(100%);
-
-  &:hover {
-    filter: none;
-    .modal {
-      display: block;
-    }
-  }
-
-  .modal {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    background-color: rgba(235, 52, 54, .5);
-    z-index: 20;
-
-    &:hover {
-      display: block;
-    }
-  }
-
-  &.speaker-test {
-    background-image: url("../resource/speakers/speaker-test.jpg");
-  }
+  margin: auto;
 
   img {
     width: 100%;
@@ -720,6 +694,21 @@ a {
   }
 }
 
+.speaker-topics.six-topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+
+  .topic-item {
+    width: 49%;
+
+    div {
+      width: 100%;
+    }
+  }
+}
+
 /*topic gather*/
 
 .six-topics {
@@ -758,22 +747,22 @@ a {
     padding-right: 3rem;
   }
 
-  #topic1 {
+  .topic1 {
     background-image: url("../resource/topic1.png");
   }
-  #topic2 {
+  .topic2 {
     background-image: url("../resource/fabric-2642229-01.png");
   }
-  #topic3 {
+  .topic3 {
     background-image: url("../resource/topic3.png");
   }
-  #topic4 {
+  .topic4 {
     background-image: url("../resource/topic4.png");
   }
-  #topic5 {
+  .topic5 {
     background-image: url("../resource/topic5.png");
   }
-  #topic6 {
+  .topic6 {
     background-image: url("../resource/topic6.png");
   }
 }

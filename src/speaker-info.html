@@ -12,7 +12,9 @@
     <div class="grid">
         <div class="grid-cell">
             <div class="header_wrapper navbar">
-                <a class="header_logo" href="index.html"><div class="img"></div></a>
+                <a class="header_logo" href="index.html">
+                    <div class="img"></div>
+                </a>
                 <div class="header_tabs">
                     <ul class="menu-items">
                         <li class="menu-item"><a href="index.html#agenda">2018 Conference</a></li>
@@ -24,7 +26,8 @@
                     </ul>
                 </div>
                 <div class="color-gray menu-item-selected" id="booking-ticket">
-                    <a class="color-text-white" href="booking-tickets.html" target="_blank"><span><img src="resource/ticket_icon.png" alt="ticket"></span>购买门票</a>
+                    <a class="color-text-white" href="booking-tickets.html" target="_blank"><span><img
+                            src="resource/ticket_icon.png" alt="ticket"></span>购买门票</a>
                 </div>
             </div>
         </div>
@@ -46,6 +49,71 @@
         <p class="grid centered title">话题出品人</p>
     </div>
 
+    <div class="grid-wrapper grid-space">
+        @@include('../includes/speakers-producers.html')
+    </div>
+
+    <div class="grid-wrapper grid-space grid-grey">
+        <p class="grid centered title">讲师信息</p>
+    </div>
+
+    <div class="grid-wrapper grid-space">
+        @@include('../includes/speakers-speakers.html')
+    </div>
+
+    <div class="grid-wrapper grid-space grid-grey">
+        <p class="grid centered title">六大会议主题</p>
+    </div>
+
+    <div class="grid-wrapper grid-space">
+        <div class="grid centered">
+            <div class="speaker-topics six-topics">
+                <a class="topic-item" href="topic-gathering.html#topic1">
+                    <div class="topic1">
+                        领域驱动设计与企业级云IT架构
+                    </div>
+                </a>
+
+                <a class="topic-item" href="topic-gathering.html#topic2">
+                    <div class="topic2">
+                        领域驱动设计与微服务架构
+                    </div>
+                </a>
+
+                <a class="topic-item" href="topic-gathering.html#topic3">
+                    <div class="topic3">
+                        领域统一语言的实践模式
+                    </div>
+                </a>
+
+                <a class="topic-item" href="topic-gathering.html#topic4">
+                    <div class="topic4">
+                        领域驱动设计与架构师
+                    </div>
+                </a>
+
+                <a class="topic-item" href="topic-gathering.html#topic5">
+                    <div class="topic5">
+                        领域驱动设计与演进式架构
+                    </div>
+                </a>
+
+                <a class="topic-item" href="topic-gathering.html#topic6">
+                    <div class="topic6">
+                        领域驱动与响应式设计
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-wrapper grid-space" id="topic-uploading">
+        @@include('../includes/workshop.html')
+    </div>
+
+    <div class="grid-wrapper grid-space grid-grey">
+        @@include('../includes/advantage.html')
+    </div>
 
     @@include('../includes/footer-additional.html')
 </div>

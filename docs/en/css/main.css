@@ -595,22 +595,22 @@ a {
 .six-topics .topic-item:nth-child(even) p {
   padding-right: 3rem;
 }
-.six-topics #topic1 {
+.six-topics .topic1 {
   background-image: url("../../resource/topic1.png");
 }
-.six-topics #topic2 {
+.six-topics .topic2 {
   background-image: url("../../resource/fabric-2642229-01.png");
 }
-.six-topics #topic3 {
+.six-topics .topic3 {
   background-image: url("../../resource/topic3.png");
 }
-.six-topics #topic4 {
+.six-topics .topic4 {
   background-image: url("../../resource/topic4.png");
 }
-.six-topics #topic5 {
+.six-topics .topic5 {
   background-image: url("../../resource/topic5.png");
 }
-.six-topics #topic6 {
+.six-topics .topic6 {
   background-image: url("../../resource/topic6.png");
 }
 /* look back*/

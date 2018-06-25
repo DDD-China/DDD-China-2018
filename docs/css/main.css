@@ -290,15 +290,16 @@ a {
   margin-left: 100px;
 }
 .speakers {
-  justify-content: space-around;
+  justify-content: center;
   align-content: stretch;
+  flex-wrap: wrap;
 }
 .speaker-container {
   flex: auto;
 }
 @media screen and (min-width: 768px) {
   .speaker-container {
-    max-width: 150px;
+    width: 250px;
     height: 350px;
     display: inline-block;
   }
@@ -310,30 +311,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  filter: grayscale(100%);
-}
-.speaker-image:hover {
-  filter: none;
-}
-.speaker-image:hover .modal {
-  display: block;
-}
-.speaker-image .modal {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  background-color: rgba(235, 52, 54, 0.5);
-  z-index: 20;
-}
-.speaker-image .modal:hover {
-  display: block;
-}
-.speaker-image.speaker-test {
-  background-image: url("../resource/speakers/speaker-test.jpg");
+  margin: auto;
 }
 .speaker-image img {
   width: 100%;
@@ -559,6 +537,18 @@ a {
   color: red;
   font-weight: bold;
 }
+.speaker-topics.six-topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.speaker-topics.six-topics .topic-item {
+  width: 49%;
+}
+.speaker-topics.six-topics .topic-item div {
+  width: 100%;
+}
 /*topic gather*/
 .six-topics .sub-title {
   margin-bottom: 40px;
@@ -590,22 +580,22 @@ a {
 .six-topics .topic-item:nth-child(even) p {
   padding-right: 3rem;
 }
-.six-topics #topic1 {
+.six-topics .topic1 {
   background-image: url("../resource/topic1.png");
 }
-.six-topics #topic2 {
+.six-topics .topic2 {
   background-image: url("../resource/fabric-2642229-01.png");
 }
-.six-topics #topic3 {
+.six-topics .topic3 {
   background-image: url("../resource/topic3.png");
 }
-.six-topics #topic4 {
+.six-topics .topic4 {
   background-image: url("../resource/topic4.png");
 }
-.six-topics #topic5 {
+.six-topics .topic5 {
   background-image: url("../resource/topic5.png");
 }
-.six-topics #topic6 {
+.six-topics .topic6 {
   background-image: url("../resource/topic6.png");
 }
 /* look back*/
