@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>领域驱动设计中国峰会DDD-China</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="../js/lib/jquery-3.2.1.min.js"></script>
+    <link rel="icon" href="../resource/favicon.ico">
+</head>
+<body>
+<div class="grid-wrapper">
+    <div class="grid">
+        <div class="grid-cell">
+            <div class="header_wrapper navbar">
+                <a class="header_logo" href="../index.html">
+                    <div class="img"></div>
+                </a>
+                <div class="header_tabs">
+                    <ul class="menu-items">
+                        <li class="menu-item"><a href="../index.html#agenda">2018 Conference</a></li>
+                        <li class="menu-item menu-item-selected"><a href="../speaker-info.html">讲师介绍</a></li>
+                        <li class="menu-item menu-item-disable"><a href="">工作坊</a></li>
+                        <li class="menu-item"><a href="../topic-gathering.html">提案征集</a></li>
+                        <li class="menu-item"><a href="../look-back.html">2017峰会盛况回顾</a></li>
+                        <li class="menu-item"><a href="../en/topic-gathering.html">中/EN</a></li>
+                    </ul>
+                </div>
+                <div class="color-gray menu-item-selected" id="booking-ticket">
+                    <a class="color-text-white" href="../booking-tickets.html" target="_blank"><span><img
+                            src="../resource/ticket_icon.png" alt="ticket"></span>购买门票</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="grid-wrapper grid-space grid-grey">
+        <p class="grid centered title">话题出品人</p>
+    </div>
+
+    <div class="grid grid-space centered">
+        @@include('../../includes/speaker-topic-introduction.html')
+    </div>
+
+    @@include('../../includes/footer-additional.html')
+</div>
+</body>
+
+<script type="text/javascript" src="../js/lib/main.min.js"></script>
+<script type="text/javascript" src="../js/lib/producer-content.min.js"></script>
+<script type="text/javascript" src="../js/producer.js"></script>
+</html>
