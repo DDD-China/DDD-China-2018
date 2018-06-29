@@ -345,8 +345,8 @@ a {
   font-weight: 700;
 }
 .speaker-info .speaker-detail {
-  width: 450px;
-  padding-left: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .speaker-info.grid-cell {
   align-items: flex-start;
@@ -406,7 +406,7 @@ a {
 }
 .speaker-topic-detail {
   height: 200px;
-  padding: 55px 40px;
+  padding: 60px 50px;
   align-items: center;
 }
 .TBD {
