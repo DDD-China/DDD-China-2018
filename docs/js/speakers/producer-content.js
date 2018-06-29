@@ -52,7 +52,7 @@ var producers = [
     'producer-img': 'resource/zhuao.jpeg',
     'producer-name': '朱傲',
     'producer-introduction': 'ThoughtWorks资深咨询师',
-    'producer-information': '善于通过手术刀式的重构将单体应用拆解，精心培育着一个个“大高个”，相信技术人的执念与追求。',
+    'producer-information': '致力于将领域驱动设计应用于企业数字化平台的建设，作为顾问持续在各企业推广实施领域驱动设计，涉及PaaS，CRM，供应链，汽车销售等领域。架构师应对软件的复杂度，需要的不仅是领域模型，而是持续的演进。',
     'producer-topic': '领域驱动设计与架构师',
     'topic-information': '随着领域驱动设计实践的展开，团队的技术带头人（Tech Lead）或者架构师（Architect）的工作模式也在发生着变化。架构师的职责从原来的为团队定义架构要素，逐步向为团队提供快速反馈演进。在这一专题中，我们会邀请国内技术团队的一线架构师和技术带头人，通过他们的实际经验的分享，为听众阐明在实践DDD的团队中，架构师的工作到底是什么样的。',
     'speakers': [
