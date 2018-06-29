@@ -29,7 +29,6 @@ var producers = [
     'producer-information': '曾为国内外电信设备制造、电信运营商、金融、能源、电子商务等一线企业提供敏捷转型、架构重构、架构评估、微服务架构咨询服务。先后主导参与了若干个微服务架构转型项目。',
     'producer-topic': '领域驱动设计与微服务架构',
     'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',
-    'speakers': [{}]
   },
   {
     'producer-img': 'resource/yangyun.jpeg',
@@ -101,6 +100,5 @@ var producers = [
     'producer-information': '<p>阿里巴巴/AliExpress 高级技术专家，从事微服务，DevOps，Java研发相关工作。著有《Maven实战》，并参与翻译《Cucumber，行为驱动开发》《七周七语言续》等书。</p>' + '<p>LinkedIn: https://www.linkedin.com/in/juvenxu/</p>',
     'producer-topic': '领域驱动与响应式设计',
     'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在响应式设计中起到的作用。',
-    'speakers': [{}]
   },
 ]
