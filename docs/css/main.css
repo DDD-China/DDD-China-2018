@@ -825,3 +825,28 @@ a {
 .advantages .advantage-4 {
   background-image: url("../resource/advantage-back4.jpg");
 }
+.workshop-schedule-item {
+  width: 150px;
+  height: 150px;
+  padding-top: 58px;
+  padding-left: 22px;
+  padding-right: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 26px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.workshop-schedule-item.workshop-schedule-title-1 {
+  background-image: url("../resource/workshop-back1.jpeg");
+}
+.workshop-schedule-item.workshop-schedule-title-2 {
+  background-image: url("../resource/workshop-back2.jpeg");
+}
+.workshop-schedule-item.workshop-schedule-title-3 {
+  background-image: url("../resource/workshop-back3.png");
+}
+.workshop-schedule-item.workshop-schedule-title-4 {
+  background-image: url("../resource/workshop-back4.png");
+}
