@@ -393,9 +393,12 @@ a {
   background-color: black;
   color: white;
   min-width: 200px;
+  max-width: 200px;
   height: 200px;
   text-align: center;
-  padding: 55px;
+  padding-top: 55px;
+  padding-right: 28px;
+  padding-left: 28px;
 }
 .speaker-topic .speaker-topic-title {
   text-decoration: underline;
@@ -849,4 +852,10 @@ a {
 }
 .workshop-schedule-item.workshop-schedule-title-4 {
   background-image: url("../resource/workshop-back4.png");
+}
+.topic-item-2 .speaker-topic {
+  background-color: red;
+}
+.topic-item-2 .speaker-topic-import-icon {
+  border-bottom: 10px solid red;
 }
