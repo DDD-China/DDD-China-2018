@@ -362,6 +362,7 @@ a {
 .speaker-info .speaker-img.speaker-intro-row {
   min-width: 200px;
   height: 200px;
+  margin-right: 20px;
   padding-top: 25px;
   padding-left: 25px;
 }
@@ -837,11 +838,10 @@ a {
   background-image: url("../resource/advantage-back4.jpg");
 }
 .workshop-schedule-item {
-  width: 150px;
+  width: 200px;
   height: 150px;
-  padding-top: 58px;
-  padding-left: 22px;
-  padding-right: 10px;
+  display: flex;
+  align-items: center;
   color: white;
   font-weight: normal;
   font-size: 26px;
@@ -849,6 +849,13 @@ a {
   background-size: cover;
   background-position: center;
 }
+
+.workshop-schedule-title {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
 .workshop-schedule-item.workshop-schedule-title-1 {
   background-image: url("../resource/workshop-back1.jpeg");
 }
