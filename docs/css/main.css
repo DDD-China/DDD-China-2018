@@ -398,11 +398,11 @@ a {
   color: white;
   min-width: 260px;
   max-width: 260px;
-  height: 160px;
+  height: 180px;
   text-align: center;
-  padding-top: 45px;
-  padding-right: 28px;
-  padding-left: 28px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .speaker-topic .speaker-topic-title {
   text-decoration: underline;
@@ -412,8 +412,10 @@ a {
   font-weight: lighter;
 }
 .speaker-topic-detail {
-  height: 160px;
-  padding: 45px 50px;
+  height: 180px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .TBD {

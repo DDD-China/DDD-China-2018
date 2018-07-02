@@ -19,11 +19,15 @@ $(function () {
     '\n' +
     '            <div class="flexbox-row">\n' +
     '                <div class="speaker-topic speaker-intro-row">\n' +
+    '                 <div class="topic-abstract">' +
     '                    <div class="speaker-topic-title">出品主题</div>\n' +
     '                    <div class="speaker-topic-content"></div>\n' +
+    '                 </div>' +
     '                </div>\n' +
     '                <div class="speaker-topic-detail flexbox-item grid-grey">\n' +
-    '                    <div class="speaker-topic-content-detail"></div>\n' +
+    '                 <div class="speaker-detail-wrapper">' +
+    '                    <p class="speaker-topic-content-detail"></p>\n' +
+    '                 </div>' +
     '                </div>\n' +
     '            </div>\n' +
     '        </div>\n' +
