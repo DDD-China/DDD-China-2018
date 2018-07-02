@@ -693,6 +693,7 @@ a {
 
 .gathering-topics .topic-item .topic-title {
   font-size: 30px;
+  font-weight: bold;
   height: 300px;
   padding-top: 140px;
 }
