@@ -394,6 +394,7 @@ a {
   font-size: 14px;
 }
 .speaker-topic {
+  flex-direction: column;
   background-color: black;
   color: white;
   min-width: 260px;
@@ -684,6 +685,34 @@ a {
 }
 .six-topics .topic-item:nth-child(even) p {
   padding-right: 3rem;
+}
+
+.gathering-topics .topic-item p {
+  padding-top: 50px;
+}
+
+.gathering-topics .topic-item .topic-title {
+  font-size: 30px;
+  height: 300px;
+  padding-top: 140px;
+}
+.gathering-topics .topic1 {
+  background-image: url("../resource/topic1.png");
+}
+.gathering-topics .topic2 {
+  background-image: url("../resource/fabric-2642229-01.png");
+}
+.gathering-topics .topic3 {
+  background-image: url("../resource/topic3.png");
+}
+.gathering-topics .topic4 {
+  background-image: url("../resource/topic4.png");
+}
+.gathering-topics .topic5 {
+  background-image: url("../resource/topic5.png");
+}
+.gathering-topics .topic6 {
+  background-image: url("../resource/topic6.png");
 }
 
 /* look back*/
