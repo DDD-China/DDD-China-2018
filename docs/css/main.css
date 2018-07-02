@@ -871,6 +871,10 @@ a {
 .workshop-schedule-item.workshop-schedule-title-4 {
   background-image: url("../resource/workshop-back4.png");
 }
+
+.topic-item-2 {
+  margin-top: 20px;
+}
 .topic-item-2 .speaker-topic {
   background-color: red;
 }
