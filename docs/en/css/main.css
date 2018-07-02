@@ -33,6 +33,11 @@ a {
 .grid-space {
   padding: 60px 10%;
 }
+
+.producer-grid-space {
+  padding: 20px 10%;
+}
+
 .inner-grid-space {
   padding-top: 20px;
   padding-bottom: 20px;
