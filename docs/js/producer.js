@@ -31,8 +31,12 @@ $(function () {
     '    </div>')
 
 
-  producers.forEach(function(producer) {
+  producers.forEach(function(producer, index) {
     var producerWrapper = templateHTMl.clone();
+    if( index % 2 === 1) {
+      $('.speaker-info .speaker-topic', producerWrapper).css({'background-color': 'red'})
+      $('.speaker-topic-import-icon', producerWrapper).css({'border-bottom': '10px solid red'})
+    }
     $('.speaker-info .speaker-img img', producerWrapper).attr('src', producer['producer-img']).attr('alt', producer['producer-name']);
     $('.speaker-info .speaker-detail .speaker-detail-introduction .speaker-name', producerWrapper).append(producer['producer-name']);
     $('.speaker-info .speaker-detail .speaker-detail-introduction .speaker-title', producerWrapper).append(producer['producer-introduction']);
