@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>DDD China Conference</title>
+    <title>领域驱动设计中国峰会DDD-China</title>
     <link rel="stylesheet" href="../css/main.css">
     <script type="text/javascript" src="../lib/jquery-3.2.1.min.js"></script>
     <link rel="icon" href="../resource/favicon.ico">
@@ -17,16 +17,16 @@
                 <div class="header_tabs">
                     <ul class="menu-items">
                         <li class="menu-item menu-item-selected"><a href="index.html#agenda">2018 Conference</a></li>
-                        <li class="menu-item menu-item-disable"><a >Speakers</a></li>
-                        <li class="menu-item menu-item-disable"><a >Workshops</a></li>
-                        <li class="menu-item"><a href="./topic-gathering.html">Submissions</a></li>
-                        <li class="menu-item"><a href="./look-back.html">Conference Venue 2017</a></li>
-                        <li class="menu-item"><a href="../zh/index.html#agenda">中/EN</a></li>
-
+                        <li class="menu-item"><a href="./speaker-info.html">讲师介绍</a></li>
+                        <li class="menu-item"><a href="./workshop.html">工作坊</a></li>
+                        <li class="menu-item"><a href="./topic-gathering.html">提案征集</a></li>
+                        <li class="menu-item"><a href="./look-back.html">2017峰会盛况回顾</a></li>
+                        <li class="menu-item"><a href="../en/index.html#agenda">中/EN</a></li>
                     </ul>
                 </div>
                 <div class="color-gray" id="booking-ticket">
-                    <a class="color-text-white" href="booking-tickets.html" target="_blank"><span><img src="../resource/ticket_icon.png" alt="ticket"></span>Tickets</a>
+                    <a class="color-text-white" href="booking-tickets.html" target="_blank">
+                        <span><img src="../resource/ticket_icon.png" alt="ticket"></span>购买门票</a>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
         <div class="grid centered">
             <div class="grid-cell top-banner">
                 <div class="block">
-                    <a class="button color-black color-text-white color-border-white" href="booking-tickets.html">Kickstarter 2018  One-click Purchase</a>
+                    <a class="button color-black color-text-white color-border-white" href="booking-tickets.html">2018瞎鸟票 一键购买</a>
                 </div>
             </div>
         </div>
@@ -48,15 +48,15 @@
     <div class="grid-wrapper grid-space">
         <div class="grid centered">
             <div class="conf-date-location">
-                <p class="title">The Premier Software Modelling & Design Conference</p>
+                <p class="title">软件设计的旗帜性峰会</p>
                 <div class="flexbox-row">
                     <div class="flexbox-item">
                         <div class="icon"><img src="../resource/calendar.png" alt=""></div>
-                        <div class="word">2018.11.29-12.01</div>
+                        <div class="word">2018年11月29日—12月01日</div>
                     </div>
                     <div class="flexbox-item">
                         <div class="icon"><img src="../resource/location.png" alt=""></div>
-                        <div class="word">International Convention Center, Beijing</div>
+                        <div class="word">北京，国际会议中心</div>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
 
     <div class="grid-wrapper grid-space grid-grey" id="conf-introduction">
         <div class="grid centered">
-            @@include('../includes/en/conf-introduction-part.html')
+            @@include('../includes/zh/conf-introduction-part.html')
         </div>
     </div>
 
@@ -74,11 +74,11 @@
         <!--<div class="grid grid-cell centered">-->
             <!--<div class="video-column">-->
                 <!--<div class="no-height">-->
-                    <!--<img   src="../resource/play-button.png">-->
+                    <!--<img   src="./resource/play-button.png">-->
                 <!--</div>-->
 
                 <!--<video controls>-->
-                    <!--<source src="../resource/video/xiaoran.mp4" type="video/mp4" />-->
+                    <!--<source src="./resource/video/xiaoran.mp4" type="video/mp4" />-->
 
                     <!--Your browser does not support HTML5 video.-->
                 <!--</video>-->
@@ -90,23 +90,21 @@
 
 
     <div class="grid-wrapper grid-space content-container" id="agenda">
-        @@include('../includes/en/agenda.html')
+        @@include('../includes/zh/agenda.html')
     </div>
 
     <div class="grid-wrapper grid-space" id="topic-uploading">
-        @@include('../includes/en/topic-uploading-index.html')
+        @@include('../includes/zh/topic-uploading-index.html')
     </div>
-
-
 
 
     <div class="grid-wrapper grid-space content-container" id="partners">
-        @@include('../includes/en/partners.html')
+        @@include('../includes/zh/partners.html')
     </div>
 
 
 
-    @@include('../includes/en/footer-additional.html')
+    @@include('../includes/zh/footer-additional.html')
 </div>
 </body>
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>领域驱动设计中国峰会DDD-China</title>
     <link rel="stylesheet" href="../css/main.css">
-    <script type="text/javascript" src="../js/lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery-3.2.1.min.js"></script>
     <link rel="icon" href="../resource/favicon.ico">
 </head>
 <body>
@@ -18,11 +18,11 @@
                 <div class="header_tabs">
                     <ul class="menu-items">
                         <li class="menu-item"><a href="index.html#agenda">2018 Conference</a></li>
-                        <li class="menu-item menu-item-selected"><a href="#">讲师介绍</a></li>
-                        <li class="menu-item"><a href="./workshop.html">工作坊</a></li>
+                        <li class="menu-item"><a href="./speaker-info.html">讲师介绍</a></li>
+                        <li class="menu-item menu-item-selected"><a href="#">工作坊</a></li>
                         <li class="menu-item"><a href="./topic-gathering.html">提案征集</a></li>
                         <li class="menu-item"><a href="./look-back.html">2017峰会盛况回顾</a></li>
-                        <li class="menu-item"><a href="../zh/topic-gathering.html">中/EN</a></li>
+                        <li class="menu-item"><a href="../en/topic-gathering.html">中/EN</a></li>
                     </ul>
                 </div>
                 <div class="color-gray menu-item-selected" id="booking-ticket">
@@ -37,51 +37,28 @@
 <div class="main-container">
     <div class="grid-wrapper">
         <div class="hero-banner">
-            <img src="../resource/Banner-Top.png" alt="Topic pic">
+            <img src="../resource/Banner-workshop.jpeg" alt="Topic pic">
         </div>
     </div>
 
     <div class="grid-wrapper grid-space">
-        @@include('../includes/en/speakers-abstract.html')
+        @@include('../includes/zh/workshop-abstract.html')
     </div>
 
     <div class="grid-wrapper grid-space grid-grey">
-        <p class="grid centered title">话题出品人</p>
+        @@include('../includes/zh/workshop-schedule.html')
     </div>
 
     <div class="grid-wrapper grid-space">
-        @@include('../includes/en/speakers-producers.html')
+        @@include('../includes/zh/workshop-advantage.html')
     </div>
 
     <div class="grid-wrapper grid-space grid-grey">
-        <p class="grid centered title">讲师信息</p>
+        @@include('../includes/zh/workshop-speaker-intro.html')
     </div>
 
-    <div class="grid-wrapper grid-space">
-        @@include('../includes/en/speakers-speakers.html')
-    </div>
+    @@include('../includes/zh/footer-additional.html')
 
-    <div class="grid-wrapper grid-space grid-grey">
-        <p class="grid centered title">六大会议主题</p>
-    </div>
-
-    <div class="grid-wrapper grid-space">
-        @@include('../includes/en/main-topics-simple.html')
-    </div>
-
-    <div class="grid-wrapper grid-space" id="topic-uploading">
-        @@include('../includes/en/workshop.html')
-    </div>
-
-    <div class="grid-wrapper grid-space grid-grey">
-        @@include('../includes/en/advantage.html')
-    </div>
-
-    <div class="grid-wrapper grid-space">
-        @@include('../includes/en/partner.html')
-    </div>
-
-    @@include('../includes/en/footer-additional.html')
 </div>
 </body>
 <script type="text/javascript" src="../js/main.js"></script>
