@@ -1,131 +1,97 @@
 var gulp = require('gulp'),
-    gulp_sequence = require('gulp-sequence'),
-    rename = require('gulp-rename'),
-    fileinclude = require('gulp-file-include'),
-    minifyjs = require('gulp-js-minify'),
-    less = require('gulp-less');
+  gulp_sequence = require('gulp-sequence'),
+  rename = require('gulp-rename'),
+  fileinclude = require('gulp-file-include'),
+  minifyjs = require('gulp-js-minify'),
+  less = require('gulp-less');
 
-var webRoot = "docs/";
-var webRootEN = "docs/en/";
+var sourceRoot = 'src';
+var buildRoot = 'build';
 
-gulp.task('watch', gulp_sequence(['watch_html', 'watch_js', 'watch_css', 'watch_html_en','watch_css_en']));
+gulp.task('watch',
+  gulp_sequence([
+    'build',
+    'watch_js',
+    'watch_style',
+    'watch_html'
+  ])
+);
 
+gulp.task('build',
+  gulp_sequence(([
+    'compile_less',
+    'include_zh_index',
+    'include_en_index',
+    'prepare_data'
+  ]))
+)
 
-gulp.task('watch_html', function () {
-    gulp.watch(['includes/*.html', 'src/**/*.html'], ['include_index', 'include_speakers', 'include_workshop']);
+gulp.task('watch_js', function() {
+  gulp.watch(
+    [sourceRoot + '/js/*.js', sourceRoot + '/data/*'],
+    [
+      'prepare_data'
+    ]
+  )
+});
+
+gulp.task('include_zh_index', function() {
+  gulp.src('src/zh/**.html')
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest(buildRoot + '/zh'))
 })
 
-gulp.task('watch_html_en', function () {
-    gulp.watch(['src/en/includes/*.html', 'src/en/**/*.html' ,'src/en/*.html'], ['include_en_index', 'include_en_speakers', 'include_en_workshop']);
+gulp.task('include_en_index', function() {
+  gulp.src('src/en/**.html')
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest(buildRoot + '/en'))
 })
 
-gulp.task('watch_js', function () {
-    gulp.watch([webRoot + 'js/*.js', webRoot + 'js/speakers/*.js'], ['minify-js-index', 'minify-js-speakers']);
-});
-
-// gulp.task('watch_js_en', function () {
-//     gulp.watch([webRootEN + 'js/*.js', webRootEN + 'js/speakers/*.js'], ['minify-js-index-en', 'minify-js-speakers-en']);
-// });
-
-gulp.task('watch_css', function () {
-    gulp.watch(webRoot + 'css/*.less', ['compile-less']);
+gulp.task('watch_html', function() {
+  gulp.watch(
+    [
+      sourceRoot + '/zh/**.html',
+      sourceRoot + '/includes/zh/**.html',
+      sourceRoot + '/en/**.html',
+      sourceRoot + '/includes/en/**.html'
+    ],
+    ['include_zh_index', 'include_en_index'])
 })
 
-gulp.task('watch_css_en', function () {
-    gulp.watch(webRootEN + 'css/*.less', ['compile-less-en']);
-})
-
-
-gulp.task('include_index', function () {
-    gulp.src('src/**.html')
-        .pipe(fileinclude({
-            prefix: '@@',
-            basepath: '@file'
-        }))
-        .pipe(gulp.dest(webRoot));
+gulp.task('minify_js', function() {
+  gulp.src([sourceRoot + '/js/*.js'])
+    .pipe(minifyjs())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest(buildRoot + '/js'))
 });
 
-gulp.task('include_en_index', function () {
-    gulp.src('src/en/**.html')
-        .pipe(fileinclude({
-            prefix: '@@',
-            basepath: '@file'
-        }))
-        .pipe(gulp.dest(webRootEN));
+gulp.task('compile_less', function() {
+  gulp.src(sourceRoot + '/style/index.less')
+    .pipe(less())
+    .pipe(rename('main.css'))
+    .pipe(gulp.dest(buildRoot + '/css/'))
 });
 
-gulp.task('include_speakers', function () {
-    gulp.src('src/speakers/**.html')
-        .pipe(fileinclude({
-            prefix: '@@',
-            basepath: '@file'
-        }))
-        .pipe(gulp.dest(webRoot + 'speakers/'));
+gulp.task('watch_style', function() {
+  gulp.watch(
+    [sourceRoot + '/style/*.less'],
+    ['compile_less']
+  )
 });
 
-gulp.task('include_en_speakers', function () {
-    gulp.src('src/en/speakers/**.html')
-        .pipe(fileinclude({
-            prefix: '@@',
-            basepath: '@file'
-        }))
-        .pipe(gulp.dest(webRootEN + 'speakers/'));
-});
-
-gulp.task('include_workshop', function () {
-    gulp.src('src/workshop/**.html')
-        .pipe(fileinclude({
-            prefix: '@@',
-            basepath: '@file'
-        }))
-        .pipe(gulp.dest(webRoot + 'workshop/'));
-});
-
-gulp.task('include_en_workshop', function () {
-    gulp.src('src/workshop/**.html')
-        .pipe(fileinclude({
-            prefix: '@@',
-            basepath: '@file'
-        }))
-        .pipe(gulp.dest(webRootEN + 'workshop/'));
-});
-
-gulp.task('minify-js-index', function () {
-    gulp.src([webRoot + 'js/*.js', '!' + webRoot + 'js/*.min.js'])
-        .pipe(minifyjs())
-        .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest(webRoot + 'js/lib'));
-});
-
-// gulp.task('minify-js-index-en', function () {
-//     gulp.src([webRootEN + 'js/*.js', '!' + webRootEN + 'js/*.min.js'])
-//         .pipe(minifyjs())
-//         .pipe(rename({suffix: '.min'}))
-//         .pipe(gulp.dest(webRootEN + 'js/lib'));
-// });
-
-gulp.task('minify-js-speakers', function () {
-    gulp.src([webRoot + 'js/speakers/*.js', '!' + webRoot + 'js/speakers/*.min.js'])
-        .pipe(minifyjs())
-        .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest(webRoot + 'js/lib/'));
-});
-
-// gulp.task('minify-js-speakers-en', function () {
-//     gulp.src([webRootEN + 'js/speakers/*.js', '!' + webRootEN + 'js/speakers/*.min.js'])
-//         .pipe(minifyjs())
-//         .pipe(rename({suffix: '.min'}))
-//         .pipe(gulp.dest(webRootEN + 'js/lib/'));
-// });
-
-gulp.task('compile-less', function () {
-    gulp.src(webRoot + 'css/*.less')
-        .pipe(less())
-        .pipe(gulp.dest(webRoot + 'css/'))
-})
-
-gulp.task('compile-less-en', function () {
-    gulp.src(webRootEN + 'css/*.less')
-        .pipe(less())
-        .pipe(gulp.dest(webRootEN + 'css/'))
+gulp.task('prepare_data', function() {
+  gulp.src([
+    sourceRoot + '/data/**',
+    sourceRoot + '/js/**',
+    sourceRoot + '/resource/**',
+    sourceRoot + '/lib/**'],
+    {base: sourceRoot}
+    )
+    .pipe(gulp.dest(buildRoot))
 })

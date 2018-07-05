@@ -13,7 +13,9 @@
     "url": "https://gitlab.com/stringlc/web-DDD/issues"
   },
   "scripts": {
-    "build": "gulp watch"
+    "start": "gulp watch",
+    "build": "rm -rf ./build\n gulp build",
+    "clean": "rm -rf ./build"
   },
   "homepage": "https://gitlab.com/stringlc/web-DDD#README",
   "devDependencies": {
