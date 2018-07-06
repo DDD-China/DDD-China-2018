@@ -4,33 +4,13 @@
     <meta charset="utf-8">
     <title>DDD China Conference</title>
     <link rel="stylesheet" href="../css/main.css">
-    <script type="text/javascript" src="../js/lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery-3.2.1.min.js"></script>
     <link rel="icon" href="../resource/favicon.ico">
 </head>
 <body>
 
-<div class="grid-wrapper">
-    <div class="grid">
-        <div class="grid-cell">
-            <div class="header_wrapper navbar">
-                <a class="header_logo" href="index.html"><div class="img"></div></a>
-                <div class="header_tabs">
-                    <ul class="menu-items">
-                        <li class="menu-item"><a href="index.html#agenda">2018 Conference</a></li>
-                        <li class="menu-item menu-item-disable"><a >Speakers</a></li>
-                        <li class="menu-item menu-item-disable"><a >Workshops</a></li>
-                        <li class="menu-item"><a href="./topic-gathering.html">Submissions</a></li>
-                        <li class="menu-item"><a href="./look-back.html">Conference Venue 2017</a></li>
-                        <li class="menu-item"><a href="../zh/booking-tickets.html">中/EN</a></li>
-                    </ul>
-                </div>
-                <div class="color-red" id="booking-ticket">
-                    <a class="color-text-white" href="#"><span><img src="../resource/ticket_icon.png" alt="ticket"></span>Tickets</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+@@include('../includes/en/navigation-header.html')
 
 <div class="main-container">
     @@include('../includes/en/booking-tickets.html')
@@ -38,5 +18,8 @@
 </div>
 </body>
 
-<script type="text/javascript" src="../js/lib/main.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript">
+    focusOn(NAV_ITEMS.BOOKING_TICKETS, LANGUAGE.ZH)
+</script>
 </html>
