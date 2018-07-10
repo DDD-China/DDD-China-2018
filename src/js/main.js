@@ -58,8 +58,8 @@ function changeBannerSize() {
     $('.top-banner').css('height', window_height - 43);
 }
 
-function focusOn(menuItem, language) {
-  var locations = language ? TRANSLATION_LOCATIONS[language] : TRANSLATION_LOCATIONS[LANGUAGE.EN]
+function focusOn(menuItem, targetTranslateLanguage) {
+  var locations = targetTranslateLanguage ? TRANSLATION_LOCATIONS[targetTranslateLanguage] : TRANSLATION_LOCATIONS[LANGUAGE.EN]
   $('.navbar .menu-item').removeClass('menu-item-selected');
   if (menuItem.itemIndex) {
     $('.navbar .menu-item:nth-child(' + menuItem.itemIndex + ')').addClass('menu-item-selected');
