@@ -72,9 +72,8 @@ gulp.task('minify_js', function() {
 });
 
 gulp.task('compile_less', function() {
-  gulp.src(sourceRoot + '/style/index.less')
+  gulp.src(sourceRoot + '/style/**.less')
     .pipe(less())
-    .pipe(rename('main.css'))
     .pipe(gulp.dest(buildRoot + '/css/'))
 });
 
