@@ -14,7 +14,7 @@ var NAV_ITEMS = {
     },
     TOPIC_GATHERING: {
       itemIndex: 4,
-      title: 'WORKSHOP'
+      title: 'TOPIC_GATHERING'
     },
     LOOK_BACK: {
       itemIndex: 5,
@@ -37,7 +37,7 @@ var LANGUAGE = {
 var TRANSLATION_LOCATIONS = {
   [LANGUAGE.EN]: {
     CONFERENCE: '../en/index.html#agenda',
-    SPEAKER_INFO: '../en/topic-gathering.html',
+    SPEAKER_INFO: '../en/speaker-info.html',
     WORKSHOP: '../en/topic-gathering.html',
     TOPIC_GATHERING: '../en/topic-gathering.html',
     LOOK_BACK: '../en/look-back.html',
@@ -45,7 +45,7 @@ var TRANSLATION_LOCATIONS = {
   },
   [LANGUAGE.ZH]: {
     CONFERENCE: '../zh/index.html#agenda',
-    SPEAKER_INFO: '../zh/topic-gathering.html',
+    SPEAKER_INFO: '../zh/speaker-info.html',
     WORKSHOP: '../zh/topic-gathering.html',
     TOPIC_GATHERING: '../zh/topic-gathering.html',
     LOOK_BACK: '../zh/look-back.html',
@@ -64,5 +64,6 @@ function focusOn(menuItem, targetTranslateLanguage) {
   if (menuItem.itemIndex) {
     $('.navbar .menu-item:nth-child(' + menuItem.itemIndex + ')').addClass('menu-item-selected');
   }
+  console.log('translation message: ', locations[menuItem.title], menuItem);
   $('.navbar .menu-item:nth-child(' + NAV_ITEMS.TRANSLATION.itemIndex + ') a').attr('href', locations[menuItem.title])
 }
