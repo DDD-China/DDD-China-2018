@@ -53,7 +53,7 @@ var speakers = [
       'producer-name': '刘光聪',
       'producer-introduction': '中兴通讯技术规划部资深系统架构师',
       'producer-information': '敏捷技术教练；就职于中兴通讯，任职资深系统架构师，致力于机器学习算法理论的研究与应用实践；Linux基金会Acumos AI项目TSC（技术控制委员会）成员；热衷于敏捷软件开发，极限编程实践。',
-      'producer-topic': '拥抱Kubernetes：领域模型与内核设计',
+      'producer-topic': '拥抱Kubernetes：领域模型与<br>内核设计',
       'topic-information': '阐述Kubernetes系统架构与核心原理，挖掘Kubernetes内在的领域模型，揭开Kubernetes运行时的核心机制。\n' +
         '<ul>' +
       '<li>1.深入理解Kubernetes的系统架构与未来演进趋势，从DDD的视角挖掘Kubernetes设计的精髓</li>' +
