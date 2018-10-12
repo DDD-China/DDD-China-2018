@@ -65,7 +65,7 @@ var speakers = [
       'producer-name': '刘光聪',
       'producer-introduction': '中兴通讯技术规划部资深系统架构师',
       'producer-information': '敏捷技术教练；就职于中兴通讯，任职资深系统架构师，致力于机器学习算法理论的研究与应用实践；Linux基金会Acumos AI项目TSC（技术控制委员会）成员；热衷于敏捷软件开发，极限编程实践。',
-      'producer-topic': '领域驱动设计与企业级云IT架构',
+      'producer-topic': '领域驱动设计与企业应用架构',
       'topic-information': '作为IT系统治理和架构治理的一种工具，企业级架构被很多大型企业广泛采用。但在实际工作当中，企业级架构的定义和治理如何能够和快速变化的业务诉求相匹配，与快速创新的企业愿景相一致，这些问题一直有待解决。DDD作为一种面向响应力的软件和系统设计原则，在企业架构实践中大有用武之地。本专题将专注讨论领域驱动的企业级架构的设计方法和实践。',
     }], [
     {
@@ -84,14 +84,14 @@ var speakers = [
       'topic-information': '随着领域驱动设计实践的展开，团队的技术带头人（Tech Lead）或者架构师（Architect）的工作模式也在发生着变化。架构师的职责从原来的为团队定义架构要素，逐步向为团队提供快速反馈演进。在这一专题中，我们会邀请国内技术团队的一线架构师和技术带头人，通过他们的实际经验的分享，为听众阐明在实践DDD的团队中，架构师的工作到底是什么样的。',
     }],[
     {
-      'producer-img': '../resource/wangjian.jpeg',
+      'producer-img': '../resource/wangjian.png',
       'producer-name': '王健',
       'producer-introduction': 'ThoughtWorks高级咨询师',
       'producer-information': '一直从事国内外大型企业级软件的设计与开发，保持着对技术的热爱，享受着编码的快乐，热衷于技术分享，阿里云MVP。十年前开始接触DDD，一直在工作中运用与不断学习。近两年关注在应用DDD进行大型企业企业数字中台规划与落地，平台化建设，遗留系统服务化相关工作。',
       'producer-topic': '当我们谈中台时我们在谈些什么？',
       'topic-information': '以实际案例出发，从之中的坑和反思。重新思考什么是中台和中台的根本目的，整理归纳目前行业对于中台的各种认识。从企业IT长远发展的高度，结合三地平线理论，规模化创新的必要与难点，以用户为中心，再次认识中台概念。并结合DDD在中台项目中的实际应用，让大家对于中台的概念和路线更加清晰明确。',
     }, {
-      'producer-img': '../resource/wangjian.jpeg',
+      'producer-img': '../resource/wangjian.png',
       'producer-name': '王健',
       'producer-introduction': '',
       'producer-information': '',
@@ -99,7 +99,7 @@ var speakers = [
       'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',
     }],[
     {
-      'producer-img': '../resource/xupo.jpeg',
+      'producer-img': '../resource/xupo.png',
       'producer-name': '徐泼',
       'producer-introduction': '美团酒旅研发中心高级技术专家',
       'producer-information': '美团高级技术专家，10年开发和架构设计经验，涉及通信行业企业级应用、虚拟游戏社区、实物电商、社交SNS、汽车O2O、旅游电商领域；擅长面向对象设计和领域驱动设计，专注大型软件的面向服务系统架构设计和互联网Web系统架构设计，对复杂业务领域建模具有丰富的设计实战经验。现负责美团度假商品中心和供应链团队，并担任旅游度假业务架构师，主导旅游度假电商平台架构设计，结合领域驱动设计，深入旅游电商领域，对DDD在旅游电商平台架构演进的实践有深刻的理解和体会。',
@@ -114,7 +114,7 @@ var speakers = [
       'topic-information': '2017年，Neal Ford、Rebecca Parson、Patric Kua合著的新书《构建演进式架构》一书问世。一种新的架构治理模式被介绍给业界。演进式架构中对于incremental、guided、multi-dimension三个维度的阐述定义了一种全新的构建架构纬度快速反馈的管理方法。在本专题中，我们会专注演进式架构中三个维度的具体业界实践案例，希望让听众对演进式架构能有进一步的认知。',
     }],[
     {
-      'producer-img': '../resource/likaihang.jpeg',
+      'producer-img': '../resource/likaihang.png',
       'producer-name': '李凯航',
       'producer-introduction': '中兴通讯操作系统技术专家',
       'producer-information': '中兴通讯操作系统产品系统架构师、技术专家，主要研究方向为嵌入式虚拟化、电信级服务器虚拟化、微内核技术、物联网操作系统、领域驱动设计、函数式设计、代数式设计、软件形式化设计及验证技术等，曾担任公司级光传输平台、分组交换平台产品的核心架构设计师。',
@@ -129,7 +129,7 @@ var speakers = [
       'topic-information': '领域驱动设计是建立在领域统一语言（Ubiquitous Language）的基础上的。如何能在业务、开发、运维等不同角色间，构建统一语言，并围绕容易语言构建模型，是很多DDD的实践者以及团队所关注的问题。在本专题中，我们将关注统一语言的发现和使用的过程，以及其为团队所带来的收益',
     }],[
     {
-      'producer-img': '../resource/jiwei.jpeg',
+      'producer-img': '../resource/jiwei.png',
       'producer-name': '季炜',
       'producer-introduction': 'ThoughtWorks高级咨询师',
       'producer-information': '为众多客户提供敏捷转型、精益创新及业务流程优化等管理咨询服务，涉及领域包括金融、电信、互联网等领域。季炜对设计思维、需求条目化管理、领域驱动设计、LeSS、Scrum、Kanban等实践有深入了解。目前专注于帮助客户采纳精益和敏捷的原则与方法，提升产品价值，提高研发效率和质量的研究和实践工作。',
@@ -144,7 +144,7 @@ var speakers = [
       'topic-information': '随着领域驱动设计实践的展开，团队的技术带头人（Tech Lead）或者架构师（Architect）的工作模式也在发生着变化。架构师的职责从原来的为团队定义架构要素，逐步向为团队提供快速反馈演进。在这一专题中，我们会邀请国内技术团队的一线架构师和技术带头人，通过他们的实际经验的分享，为听众阐明在实践DDD的团队中，架构师的工作到底是什么样的。',
     }],[
     {
-      'producer-img': '../resource/baiyanlei.jpeg',
+      'producer-img': '../resource/baiyanlei.png',
       'producer-name': '白彦磊',
       'producer-introduction': ' 广联达科技股份有限公司土建产品部技术架构部经理',
       'producer-information': '目前任广联达公司核心产品技术架构部经理；从业8年，一直从事工程造价领域的图形类产品的研发，历任开发工程师，研发经理等职；\n' +
@@ -179,7 +179,7 @@ var speakers = [
       'topic-information': '随着领域驱动设计实践的展开，团队的技术带头人（Tech Lead）或者架构师（Architect）的工作模式也在发生着变化。架构师的职责从原来的为团队定义架构要素，逐步向为团队提供快速反馈演进。在这一专题中，我们会邀请国内技术团队的一线架构师和技术带头人，通过他们的实际经验的分享，为听众阐明在实践DDD的团队中，架构师的工作到底是什么样的。',
     }],[
     {
-      'producer-img': '../resource/hejian.jpeg',
+      'producer-img': '../resource/png.jpeg',
       'producer-name': '和坚',
       'producer-introduction': 'ThoughtWorks高级咨询师',
       'producer-information': '十余年IT从业经验，曾担任某互联网金融公司CTO。从技术到金融，从金融到风控，从风控到互联网，从互联网到咨询。不断走出舒适区，体验多维的人生。',
