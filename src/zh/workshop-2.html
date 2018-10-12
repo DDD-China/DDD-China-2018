@@ -6,12 +6,6 @@
     <link rel="stylesheet" href="../css/main.css">
     <script type="text/javascript" src="../lib/jquery-3.2.1.min.js"></script>
     <link rel="icon" href="../resource/favicon.ico">
-    <style>
-        img.entry {
-            width: 100%;
-            vertical-align: middle;
-        }
-    </style>
 </head>
 <body>
 
@@ -19,16 +13,22 @@
 
 <div class="main-container">
     <div class="grid-wrapper">
-        <a href="./workshop-2.html">
-        <img class="entry" src="../resource/workshop-2.jpg" alt="基于复杂性认知的设计思维工作坊"/>
-        </a>
-        <a href="./workshop-1.html">
-        <img class="entry" src="../resource/workshop-1.jpg" alt="领域驱动设计实战工作坊"/>
-        </a>
-        <a href="./workshop-3.html">
-        <img class="entry" src="../resource/workshop-3.jpg" alt="CloudNative 微服务实战工作坊"/>
-        </a>
+        <div class="hero-banner">
+            <img src="../resource/Banner-workshop.jpeg" alt="Topic pic">
+        </div>
     </div>
+
+    <div class="grid-wrapper grid-space">
+        @@include('../includes/zh/workshop-2/workshop-abstract.html')
+    </div>
+
+
+    <div class="grid-wrapper grid-space grid-grey">
+        @@include('../includes/zh/workshop-2/workshop-speaker-intro.html')
+    </div>
+
+    @@include('../includes/zh/footer-additional.html')
+
 </div>
 </body>
 <script type="text/javascript" src="../js/main.js"></script>
