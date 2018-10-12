@@ -163,7 +163,7 @@ var speakers = [
       'topic-information': '2017年，Neal Ford、Rebecca Parson、Patric Kua合著的新书《构建演进式架构》一书问世。一种新的架构治理模式被介绍给业界。演进式架构中对于incremental、guided、multi-dimension三个维度的阐述定义了一种全新的构建架构纬度快速反馈的管理方法。在本专题中，我们会专注演进式架构中三个维度的具体业界实践案例，希望让听众对演进式架构能有进一步的认知。',
     }],[
     {
-      'producer-img': '../resource/yaoxiaofeng.jpeg',
+      'producer-img': '../resource/yaoxiaofeng.png',
       'producer-name': '姚晓峰',
       'producer-introduction': '美团配送技术部业务系统组架构师',
       'producer-information': '长期从事业务系统的领域建模、架构设计和一线开发工作。专注于企业业务系统和财务核算系统建设，涉及的行业有互联网企业、贸易企业、工业企业、第三方物流企业和出版企业，深度理解相应领域业务知识。对领域驱动设计理论有深入的研究，并在系统建设中使用DDD的分析和设计理念进行落地实践。',
