@@ -122,6 +122,10 @@ a {
 .words {
   margin-top: 20px;
 }
+
+.workshop-3 .words{
+  line-height: 1.5;
+}
 .word {
   font-size: 18px;
 }
@@ -380,6 +384,11 @@ a {
   padding-left: 25px;
 }
 
+.speaker-info .speaker-img.speaker-intro-row.workshop-3{
+  min-width: 450px;
+  height: auto;
+}
+
 .speaker-info.rect .speaker-img{
   align-self: start;
 }
@@ -387,6 +396,11 @@ a {
   width: 100%;
   height: auto;
   border-radius: 0;
+}
+
+.speaker-img.workshop-3{
+  width: 300px;
+  height: 250px;
 }
 
 .speaker-topic-import-icon {
@@ -993,5 +1007,33 @@ a {
         }
       }
     }
+  }
+}
+
+.schedule {
+  margin-left: 140px;
+}
+
+.workshop-schedule {
+  font-size: 22px;
+  list-style-type: none;
+
+  li {
+    padding-top: 12px;
+  }
+}
+
+.workshop-schedule.content{
+  margin-left: 70px;
+
+  li:before {
+      content: "";
+      line-height: 1em;
+      width: .3em;
+      height: .3em;
+      background-color: grey;
+      float: left;
+      margin: .45em .45em 0;
+      border-radius: 50%;
   }
 }
