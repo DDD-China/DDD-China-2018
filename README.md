@@ -4,7 +4,9 @@
 
 This project is main to show some important brief messages of DDD China Conference 2018. We do not choose any fashion framework like React\Angular,  to avoid project being too heavy . Instead of this, we just choose traditional way: jQuery + Html + Less. This keeps project more simplify. Besides, we choose Gulp tool to package our code, even it not stronger than webpack, but it is great enough for this project.
 
-
+## Remember to submit minimal size image and pdf
+Before commit img, please use https://tinypng.com/ to compress and make sure image size less than 1 MB.
+Before commit pdf, please use https://smallpdf.com/compress-pdf to compress and make sure size less than 10 MB.
 
 ## How to run this project
 
