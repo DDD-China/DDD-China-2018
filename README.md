@@ -423,7 +423,7 @@ TBC
 
 <td colspan="6">
 
-Luncl&Break
+Lunch & Break
 
 </td>
 
