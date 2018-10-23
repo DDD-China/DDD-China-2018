@@ -135,13 +135,13 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 时间
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 项目
 
@@ -151,13 +151,13 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 09:30-10:00
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 KEYNOTE 1: Open Talk
 
@@ -167,13 +167,13 @@ KEYNOTE 1: Open Talk
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 SESSION
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TRACK1
 
@@ -181,7 +181,7 @@ TRACK1
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TRACK2
 
@@ -189,7 +189,7 @@ TRACK2
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TRACK3
 
@@ -197,7 +197,7 @@ TRACK3
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TRACK4
 
@@ -205,7 +205,7 @@ TRACK4
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TRACK5
 
@@ -213,7 +213,7 @@ TRACK5
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TRACK6
 
@@ -225,13 +225,13 @@ TRACK6
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 10:00-10:40
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 拥抱Kubernetes：领域模型与内核设计
 
@@ -241,7 +241,7 @@ TRACK6
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 当我们谈中台时我们在谈些什么？
 
@@ -251,7 +251,7 @@ ThoughtWorks 高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 领域建模的易与难
 
@@ -261,7 +261,7 @@ ThoughtWorks 高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 基于DDD的领域建模中的模版和工具实践
 
@@ -271,7 +271,7 @@ ThoughtWorks 高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 CQRS、Event Sourcing和领域驱动设计的渊源
 
@@ -281,7 +281,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 基于 FP 的 DDD 实践
 
@@ -295,13 +295,13 @@ ThoughtWorks高级咨询师
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 10:40-11:20
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 在一个实际复杂业务中落地DDD方法与相关架构
 
@@ -311,13 +311,13 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 如何让DDD落地
 
@@ -327,7 +327,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 领域驱动设计在美团配送运力支撑业务系统建设中的实践
 
@@ -337,7 +337,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 领域驱动架构透析与架构解耦
 
@@ -347,7 +347,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
@@ -357,25 +357,25 @@ TBC
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 11:20-12:00
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 领域模型与形式化验证技术
 
@@ -385,7 +385,7 @@ TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 复杂业务场景下的业务架构梳理到技术架构设计 - UX与架构师的完美结对
 
@@ -395,7 +395,7 @@ ThoughtWorks 资深咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 化繁为简--DDD驱动复杂业务软件架构的演进
 
@@ -405,7 +405,7 @@ ThoughtWorks 资深咨询师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
@@ -415,13 +415,13 @@ TBC
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 12:00-13:30
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 Luncl&Break
 
@@ -431,31 +431,31 @@ Luncl&Break
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 13:30-14:10
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 DDD的为与不为
 
@@ -465,7 +465,7 @@ ThoughtWorks软件工程师
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 DDD在旅游电商架构演进中的实践
 
@@ -475,7 +475,7 @@ DDD在旅游电商架构演进中的实践
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
@@ -485,37 +485,37 @@ TBC
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 14:10-14:50
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 DDD促进传统架构微服务转型
 
@@ -525,7 +525,7 @@ DDD促进传统架构微服务转型
 
 </td>
 
-<td colspan="1" rowspan="1">
+<td>
 
 TBC
 
@@ -535,13 +535,13 @@ TBC
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 14:50-15:20
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 Break
 
@@ -551,13 +551,13 @@ Break
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 15:20-16:00
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 **KEYNOTE2: Readable Code**
 
@@ -571,13 +571,13 @@ DDD Europe主要讲师之一
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 16:00-16:40
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 **KEYNOTE3: TBC**
 
@@ -591,13 +591,13 @@ Dr. Stefan Eberhardt
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 16:40-17:20
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 **KEYNOTE4: Complex Adaptive Systems**
 
@@ -611,13 +611,13 @@ Cognitive Edge管理咨询公司创始人兼首席科学官
 
 <tr>
 
-<td colspan="1" rowspan="1">
+<td>
 
 17:20-17:30
 
 </td>
 
-<td colspan="6" rowspan="1">
+<td colspan="6">
 
 Ending
 
