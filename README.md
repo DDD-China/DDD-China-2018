@@ -30,21 +30,23 @@
 
 ##### 讲师简介
 
-> ***Dave Snowden***
+***Dave Snowden***
 
-> Cognitive Edge管理咨询公司的创始人兼首席科学官。Dave Snowden教授的工作本身具有国际性，并且涉及政府以及那些因复杂问题影响战略、组织决策和常规决策的行业。他开创了一种以人类学、神经系统科学为基础的组织设计科学和复杂适应系统理论。在一系列主题方面，他都是一个非常受欢迎且充满热情的主题演讲者，也因他务实的愤世嫉俗和反传统的风格被众人周知。
+Cognitive Edge管理咨询公司的创始人兼首席科学官。Dave Snowden教授的工作本身具有国际性，并且涉及政府以及那些因复杂问题影响战略、组织决策和常规决策的行业。他开创了一种以人类学、神经系统科学为基础的组织设计科学和复杂适应系统理论。在一系列主题方面，他都是一个非常受欢迎且充满热情的主题演讲者，也因他务实的愤世嫉俗和反传统的风格被众人周知。
 >
-> 他在比勒陀利亚大学和香港理工大学担任访问主席，同时也是英国华威大学的访问学者。
+他在比勒陀利亚大学和香港理工大学担任访问主席，同时也是英国华威大学的访问学者。
 >
-> 他是南洋大学国防与战略研究所以及新加坡公务员学院的资深研究员。他在Boone on Leadership上发表的论文曾被刊登成为2007年11月版本的“哈佛商业评论”封面文章，并在同年获得了管理学院最佳从业者论文奖。
+他是南洋大学国防与战略研究所以及新加坡公务员学院的资深研究员。他在Boone on Leadership上发表的论文曾被刊登成为2007年11月版本的“哈佛商业评论”封面文章，并在同年获得了管理学院最佳从业者论文奖。
 >
-> 他之前在知识管理方面工作中的独创性获得了学院的特别奖。他在知识管理领域的几个学术、从业者期刊出版社里担任编辑委员会成员，同时也是E:CO的主编。 2006年，他在物理科学研究委员会（英国）刚刚成立的时候担任研究规划负责人，并于2007年被任命到国家科学基金会（美国）复杂科学研究评审小组。
+他之前在知识管理方面工作中的独创性获得了学院的特别奖。他在知识管理领域的几个学术、从业者期刊出版社里担任编辑委员会成员，同时也是E:CO的主编。 2006年，他在物理科学研究委员会（英国）刚刚成立的时候担任研究规划负责人，并于2007年被任命到国家科学基金会（美国）复杂科学研究评审小组。
 >
-> 他曾供职于IBM，担任知识管理机构的负责人，并为复杂的组织创立了Cynefin中心。
+他曾供职于IBM，担任知识管理机构的负责人，并为复杂的组织创立了Cynefin中心。
 >
-> 在此期间，他在IBM的全球广告活动中被选为六位“无所不知”的思想家之一。
+在此期间，他在IBM的全球广告活动中被选为六位“无所不知”的思想家之一。
 
 详情点击：[http://ddd-china.com/workshop-2.html](http://ddd-china.com/workshop-2.html)了解
+
+<br/>
 
 #### 领域驱动设计战略设计工作坊（11月29日-11月30日）
 
@@ -70,6 +72,8 @@
 架构编码实践者，IT文艺工作者，大数据平台架构师，兼爱OO与FP，热衷于编程 语言学习与技艺提升，致力于将主流领域驱动设计与函数式编程、响应式编程以及微服务 架构完美结合。他的个人微信公众号为「逸言」，个人博客：http://zhangyi.xyz。
 
 详情点击：[http://ddd-china.com/workshop-1.html](http://ddd-china.com/workshop-1.html) 了解
+
+<br/>
 
 #### Cloud Native微服务实战工作坊（11月30日）
 
@@ -121,21 +125,23 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 详情点击：[http://ddd-china.com/workshop-3.html](http://ddd-china.com/workshop-3.html)了解
 
+<br/>
+
 ### 12月1日  全体大会（Keynote+Session）
 
-<table class="c39">
+<table>
 
 <tbody>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 时间
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
 项目
 
@@ -143,15 +149,15 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 </tr>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 09:30-10:00
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
 KEYNOTE 1: Open Talk
 
@@ -159,15 +165,15 @@ KEYNOTE 1: Open Talk
 
 </tr>
 
-<tr class="c11">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 SESSION
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TRACK1
 
@@ -175,7 +181,7 @@ TRACK1
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TRACK2
 
@@ -183,7 +189,7 @@ TRACK2
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TRACK3
 
@@ -191,7 +197,7 @@ TRACK3
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TRACK4
 
@@ -199,7 +205,7 @@ TRACK4
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TRACK5
 
@@ -207,7 +213,7 @@ TRACK5
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TRACK6
 
@@ -217,15 +223,15 @@ TRACK6
 
 </tr>
 
-<tr class="c11">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 10:00-10:40
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 拥抱Kubernetes：领域模型与内核设计
 
@@ -235,7 +241,7 @@ TRACK6
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 当我们谈中台时我们在谈些什么？
 
@@ -245,7 +251,7 @@ ThoughtWorks 高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 领域建模的易与难
 
@@ -255,7 +261,7 @@ ThoughtWorks 高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 基于DDD的领域建模中的模版和工具实践
 
@@ -265,7 +271,7 @@ ThoughtWorks 高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 CQRS、Event Sourcing和领域驱动设计的渊源
 
@@ -275,7 +281,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 基于 FP 的 DDD 实践
 
@@ -287,15 +293,15 @@ ThoughtWorks高级咨询师
 
 </tr>
 
-<tr class="c11">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 10:40-11:20
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 在一个实际复杂业务中落地DDD方法与相关架构
 
@@ -305,13 +311,13 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 如何让DDD落地
 
@@ -321,7 +327,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 领域驱动设计在美团配送运力支撑业务系统建设中的实践
 
@@ -331,7 +337,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 领域驱动架构透析与架构解耦
 
@@ -341,7 +347,7 @@ ThoughtWorks高级咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
@@ -349,27 +355,27 @@ TBC
 
 </tr>
 
-<tr class="c11">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 11:20-12:00
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 领域模型与形式化验证技术
 
@@ -379,7 +385,7 @@ TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 复杂业务场景下的业务架构梳理到技术架构设计 - UX与架构师的完美结对
 
@@ -389,7 +395,7 @@ ThoughtWorks 资深咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 化繁为简--DDD驱动复杂业务软件架构的演进
 
@@ -399,7 +405,7 @@ ThoughtWorks 资深咨询师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
@@ -407,15 +413,15 @@ TBC
 
 </tr>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 12:00-13:30
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
 Luncl&Break
 
@@ -423,33 +429,33 @@ Luncl&Break
 
 </tr>
 
-<tr class="c11">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 13:30-14:10
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 DDD的为与不为
 
@@ -459,7 +465,7 @@ ThoughtWorks软件工程师
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 DDD在旅游电商架构演进中的实践
 
@@ -469,7 +475,7 @@ DDD在旅游电商架构演进中的实践
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
@@ -477,39 +483,39 @@ TBC
 
 </tr>
 
-<tr class="c11">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 14:10-14:50
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 DDD促进传统架构微服务转型
 
@@ -519,7 +525,7 @@ DDD促进传统架构微服务转型
 
 </td>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 TBC
 
@@ -527,15 +533,15 @@ TBC
 
 </tr>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 14:50-15:20
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
 Break
 
@@ -543,37 +549,37 @@ Break
 
 </tr>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 15:20-16:00
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
-## KEYNOTE2: Readable Code
+**KEYNOTE2: Readable Code**
 
-## Laura Savino
+Laura Savino
 
-## DDD Europe主要讲师之一
+DDD Europe主要讲师之一
 
 </td>
 
 </tr>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 16:00-16:40
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
-## KEYNOTE3: TBC
+**KEYNOTE3: TBC**
 
 Dr. Stefan Eberhardt
 
@@ -583,19 +589,19 @@ Dr. Stefan Eberhardt
 
 </tr>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 16:40-17:20
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
-## KEYNOTE4: Complex Adaptive Systems
+**KEYNOTE4: Complex Adaptive Systems**
 
-## Dave Snowden
+Dave Snowden
 
 Cognitive Edge管理咨询公司创始人兼首席科学官
 
@@ -603,15 +609,15 @@ Cognitive Edge管理咨询公司创始人兼首席科学官
 
 </tr>
 
-<tr class="c16">
+<tr>
 
-<td class="c0" colspan="1" rowspan="1">
+<td colspan="1" rowspan="1">
 
 17:20-17:30
 
 </td>
 
-<td class="c10" colspan="6" rowspan="1">
+<td colspan="6" rowspan="1">
 
 Ending
 
