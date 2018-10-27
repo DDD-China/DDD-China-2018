@@ -67,8 +67,80 @@ var speakers = [
       'producer-information': '敏捷技术教练；就职于中兴通讯，任职资深系统架构师，致力于机器学习算法理论的研究与应用实践；Linux基金会Acumos AI项目TSC（技术控制委员会）成员；热衷于敏捷软件开发，极限编程实践。',
       'producer-topic': '领域驱动设计与企业应用架构',
       'topic-information': '作为IT系统治理和架构治理的一种工具，企业级架构被很多大型企业广泛采用。但在实际工作当中，企业级架构的定义和治理如何能够和快速变化的业务诉求相匹配，与快速创新的企业愿景相一致，这些问题一直有待解决。DDD作为一种面向响应力的软件和系统设计原则，在企业架构实践中大有用武之地。本专题将专注讨论领域驱动的企业级架构的设计方法和实践。',
-    }], [
-    {
+    }],
+    [
+      {
+        'producer-img': '../resource/speakers/zhangqunhui.png',
+        'producer-name': '张群辉',
+        'producer-introduction': '阿里盒马架构总监',
+        'producer-information': '15 + 年技术及管理实战经验，前阿里基础机构事业部工程效率总监，长期一线指导大型复杂系统的架构设计，DevOps、微服务架构及领域驱动设计国内最早的一批实践者。崇尚实践出真知，一直奋斗在技术一线。',
+        'producer-topic': '盒马核心系统架构演进',
+        'topic-information': '即将更新',
+      },
+      {
+        'producer-img': '',
+        'producer-name': '',
+        'producer-introduction': '',
+        'producer-information': '',
+        'producer-topic': '领域驱动设计与企业应用架构',
+        'topic-information': '作为IT系统治理和架构治理的一种工具，企业级架构被很多大型企业广泛采用。但在实际工作当中，企业级架构的定义和治理如何能够和快速变化的业务诉求相匹配，与快速创新的企业愿景相一致，这些问题一直有待解决。DDD作为一种面向响应力的软件和系统设计原则，在企业架构实践中大有用武之地。本专题将专注讨论领域驱动的企业级架构的设计方法和实践。',
+      }
+    ],
+    [
+      {
+        'producer-img': '../resource/speakers/panjiayu.jpg',
+        'producer-name': '潘加宇',
+        'producer-introduction': 'UMLChina创始人，首席专家',
+        'producer-information': '在1999年还是一名程序员时，利用业余时间创建了UMLChina，潜心研究需求和设计技能。2002年开始对外提供UML需求和设计的技术指导和训练服务。到现在为止，已经上门为超过280家的组织提供服务，覆盖了国内各个领域的领袖企业，包括通信、企业管理、电子商务、房地产、网络游戏、地理信息、物流、数码设备、医疗设备、工业控制.....等领域。',
+        'producer-topic': '状态机是表达和封装领域逻辑的利器',
+        'topic-information': '状态机是对象的灵魂，如果对象的状态机无法描述或者不值得描述，那么这个对象的价值是很小的。良好的状态机模型可以帮助我们定义类的合适操作。</br>本演讲剖析常见的一些状态机建模的错误，并演示状态机如何在领域建模中封装领域逻辑。',
+      },
+      {
+        'producer-img': '',
+        'producer-name': '',
+        'producer-introduction': '',
+        'producer-information': '',
+        'producer-topic': '领域驱动设计与企业应用架构',
+        'topic-information': '作为IT系统治理和架构治理的一种工具，企业级架构被很多大型企业广泛采用。但在实际工作当中，企业级架构的定义和治理如何能够和快速变化的业务诉求相匹配，与快速创新的企业愿景相一致，这些问题一直有待解决。DDD作为一种面向响应力的软件和系统设计原则，在企业架构实践中大有用武之地。本专题将专注讨论领域驱动的企业级架构的设计方法和实践。',
+      }
+    ],
+    [
+      {
+        'producer-img': '../resource/speakers/tengyun.png',
+        'producer-name': '滕云',
+        'producer-introduction': 'ThoughtWorks软件工程师',
+        'producer-information': 'ThoughtWorks软件架构师，一线编码者，软件美追求者，DDD推崇者，具有多个大中型系统的DDD落地实践经验，同时对DevOps有浓厚兴趣，译有《实现领域驱动设计》等书。',
+        'producer-topic': 'DDD的为与不为',
+        'topic-information': '实践DDD与以正确的方式实践DDD是两回事情，DDD与其他软件技术一样有其自身的道或者套路，这些是通过反复的行业实践以及不断的试错之后总结出来的，而不是随便在网上找几篇文章读读就能获得的。在本次演讲中，我将分享到我在多个项目实践DDD的过程中所总结出来的一些经验和技法。',
+      },
+      {
+        'producer-img': '',
+        'producer-name': '',
+        'producer-introduction': '',
+        'producer-information': '',
+        'producer-topic': '领域驱动设计与架构师',
+        'topic-information': '随着领域驱动设计实践的展开，团队的技术带头人（Tech Lead）或者架构师（Architect）的工作模式也在发生着变化。架构师的职责从原来的为团队定义架构要素，逐步向为团队提供快速反馈演进。在这一专题中，我们会邀请国内技术团队的一线架构师和技术带头人，通过他们的实际经验的分享，为听众阐明在实践DDD的团队中，架构师的工作到底是什么样的。',
+      }
+    ],
+    [
+      {
+        'producer-img': '../resource/speakers/zhangxiaolong.png',
+        'producer-name': '张晓龙',
+        'producer-introduction': '中兴通讯资深软件架构师',
+        'producer-information': '多年软件架构和开发经验，爱读书，爱运动，爱编程，爱分享，对于大型软件的重构具有丰富的实战经验。近几年指导多个团队积极实践 DDD，包括开发领域和测试领域，取得了比较好的效果。 ',
+        'producer-topic': '基于 FP 的 DDD 实践',
+        'topic-information': '问题背景：你是一名数学老师，在某次课距离下课还有十分钟时，你决定做数形状的游戏（数三角形和数四边形），于是在黑板上画了一个图，接着引导同学们做这个游戏。</br>解决方案选型：不管是数三角形还是数四边形，既可以基于 OO 建立领域模型，也可以基于 FP 建立领域模型，但是基于 FP 建立的领域模型与领域语义之间的 Gap 最小且维护成本最低</br>方案介绍：首先将数三角形或四边形的方法描述成计算机可以执行的形式化算法，并且要求这种描述的抽象层次高且非常贴合领域，然后提炼领域模型，最后通过代码表达领域模型</br>实施后效果说明：领域专家和软件专家无障碍的沟通领域问题，同时代码维护成本低',
+      },
+      {
+        'producer-img': '',
+        'producer-name': '',
+        'producer-introduction': '',
+        'producer-information': '',
+        'producer-topic': '领域驱动与响应式设计',
+        'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在响应式设计中起到的作用。',
+      }
+    ],
+    [{
       'producer-img': '../resource/wanghaiwen.jpeg',
       'producer-name': '王海文',
       'producer-introduction': '用友网络科技股份有限公司高级技术架构师',
@@ -192,5 +264,42 @@ var speakers = [
       'producer-information': '',
       'producer-topic': '领域统一语言的实践模式',
       'topic-information': '领域驱动设计是建立在领域统一语言（Ubiquitous Language）的基础上的。如何能在业务、开发、运维等不同角色间，构建统一语言，并围绕容易语言构建模型，是很多DDD的实践者以及团队所关注的问题。在本专题中，我们将关注统一语言的发现和使用的过程，以及其为团队所带来的收益。',
-    }]
+    }],
+    [
+      {
+        'producer-img': '../resource/speakers/fangang.png',
+        'producer-name': '范钢',
+        'producer-introduction': '航天信息金税本部首席架构师',
+        'producer-information': '航天信息首席架构师，《大话重构》作者，哈工大软件工程硕士，软件架构及重构的客座讲师。大型遗留系统改造专业户，多次参与大型遗留系统改造、软件系统重构等重大项目。长期关注大型业务系统品质保证、防止腐化以及技术改造等问题，在实践微服务转型及大数据转型方面有丰富的经验。',
+        'producer-topic': 'DDD促进传统架构微服务转型',
+        'topic-information': '当今社会是一个新技术快速迭代的时代，新技术的迭代虽然为研发团队带来了许多挑战，但更多的是大量新的机遇，以及它们背后的新兴领域、新兴市场。然而，这又是一个激烈竞争的舞台，如何在这个舞台上获得成功呢？带着这样的思考，我用一个鲜活的案例，揭示了一个传统团队如何进行微服务转型；转型过程中的困局，以及如何DDD破解这个困局；DDD指导下的微服务转型后的惊人效果。',
+      },
+      {
+        'producer-img': '',
+        'producer-name': '',
+        'producer-introduction': '',
+        'producer-information': '',
+        'producer-topic': '领域驱动设计与演进式架构',
+        'topic-information': '2017年，Neal Ford、Rebecca Parson、Patric Kua合著的新书《构建演进式架构》一书问世。一种新的架构治理模式被介绍给业界。演进式架构中对于incremental、guided、multi-dimension三个维度的阐述定义了一种全新的构建架构纬度快速反馈的管理方法。在本专题中，我们会专注演进式架构中三个维度的具体业界实践案例，希望让听众对演进式架构能有进一步的认知。',
+      }
+    ],
+    [
+      {
+        'producer-img': '../resource/speakers/caojian.png',
+        'producer-name': '曹剑',
+        'producer-introduction': '四川好医生药业集团CTO',
+        'producer-information': '16年软件开发工作经验。先后在微软全球技术服务中心、IT独立软件与解决方案开发商、纯互联网公司、传统公司业务互联网化领域工作；分别承担微软资深讲师、ESS技术主管、技术总监、CTO、总经理助理等职位，现任四川好医生药业集团CTO。17年软件开发经验，13年项目管理经验，10年互联网应用架构经验；擅长软件分析与业务建模、并在7年前就落地DDD方法与经典架构、CQRS架构、2年前落地微服务架构风格等；擅长的后端技术包括C#、Asp.net core WebApi、EF core等；开发或管理过的软件产品70多个，涉及的领域较广，包括钢铁行业、房地产行业、知识产权行业、政府部门等内部业务软件与公众服务平台；也包括纯互联网的B2B、B2C平台；现在涉及到的是互联网医疗产品并整合传统医疗业务。17年培训与演讲经验，曾获西南地区唯一微软金话筒讲师，并获得微软多个内部技术证书。',
+        'producer-topic': '在一个实际复杂业务中落地DDD方法与相关架构',
+        'topic-information': '一般介绍DDD的文章举的例子都非常简单，并没有很好的体现DDD的核心思想与设计落地，一旦遇到复杂业务，不知如何利用DDD实现设计与编码落地。本次演讲通过企业实际完成的一个相对复杂的费用管理系统（涉及预算、费用申请、费用执行、借还款等），从这个系统初步需求方接触、通过统一语言沟通需求并形成核心模型、利用DDD经典架构编码落地、设计与编码的最佳实践、某些功能利用微服务架构风格处理的全过程。整个分析到设计、设计到架构、架构到编码的过程都遵循DDD的思想与模式，并且整个系统模型与开发在公司内部都是一次过审。',
+      },
+      {
+        'producer-img': '',
+        'producer-name': '',
+        'producer-introduction': '',
+        'producer-information': '',
+        'producer-topic': '领域驱动设计与企业应用架构',
+        'topic-information': '作为IT系统治理和架构治理的一种工具，企业级架构被很多大型企业广泛采用。但在实际工作当中，企业级架构的定义和治理如何能够和快速变化的业务诉求相匹配，与快速创新的企业愿景相一致，这些问题一直有待解决。DDD作为一种面向响应力的软件和系统设计原则，在企业架构实践中大有用武之地。本专题将专注讨论领域驱动的企业级架构的设计方法和实践。',
+        }
+    ],
+
 ];
