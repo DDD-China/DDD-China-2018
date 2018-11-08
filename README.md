@@ -159,7 +159,11 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 <td colspan="6">
 
-KEYNOTE 1: Open Talk
+Beyond Uncertainty, Design from Domain Perspective
+
+Wei David Wang
+
+DDD China 联合发起人，ThoughtWorks资深架构师
 
 </td>
 
@@ -526,7 +530,11 @@ TBC
 
 <td>
 
-TBC
+DDD实践中的那些坑
+
+王立
+
+腾讯科技深圳有限公司微信支付技术架构组技术专家
 
 </td>
 
@@ -594,7 +602,7 @@ DDD Europe主要讲师之一
 
 <td colspan="6">
 
-**KEYNOTE3: TBC**
+**KEYNOTE3: IT enabling digitalization**
 
 Dr. Stefan Eberhardt
 
