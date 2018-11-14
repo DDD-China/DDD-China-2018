@@ -12,13 +12,8 @@ var producers = [
         'name': '刘光聪',
         'introduction': '中兴通讯技术规划部资深系统架构师',
         'information': '敏捷技术教练；就职于中兴通讯，任职资深系统架构师，致力于机器学习算法理论的研究与应用实践；Linux基金会Acumos AI项目TSC（技术控制委员会）成员；热衷于敏捷软件开发，极限编程实践。',
-        'topic': '拥抱Kubernetes：领域模型与内核设计',
-        'topic-information': '阐述Kubernetes系统架构与核心原理，挖掘Kubernetes内在的领域模型，揭开Kubernetes运行时的核心机制。' +
-        '<ul>' +
-        '<li>1.深入理解Kubernetes的系统架构与未来演进趋势，从DDD的视角挖掘Kubernetes设计的精髓</li>' +
-        '<li>2.通过核心领域对象的剖析，深入Kubernetes运行时的内核，一览容器编排实现的核心技术</li>' +
-        '<li>3.深入探讨诸如Kubernetes大型软件系统中DDD方法论的实践，及其微服务架构的具体应用。</li>' +
-        '</ul>'
+        'topic': '应用DDD/DCI构建高性能AI推理引擎',
+        'topic-information': '机器学习主要包括训练和推理两个基本过程，本次演讲重点关注推理引擎的优化和实现技术。重点介绍AI推理服务的架构设计与领域模型，探究DDD在C++领域的实现模式。'
       }
     ]
   },
@@ -79,8 +74,8 @@ var producers = [
         'name': '周宇刚',
         'introduction': 'ThoughtWorks高级咨询师',
         'information': 'ThoughtWorks高级咨询师，DDD实践家 10年企业级应用开发经验，主要负责软件交付和持续交付咨询。从09年开始关注领域驱动设计，是Stack Overflow DDD标签 All Time Top Answerer 之一，曾在多个行业领域中实战过DDD。',
-        'topic': 'CQRS、Event Sourcing和领域驱动设计的渊源',
-        'topic-information': '在微观的OOP设计中，有查询和命令分离的说法。在架构设计中，也有读写模型分离的风格。本演讲旨在向中国领域驱动设计社区介绍CQRS（查询、命令职责分离）及其常见的事件溯源架构风格，以及这两个架构风格对领域驱动设计的促进。'
+        'topic': '端口和适配器架构：DDD好帮手',
+        'topic-information': 'Alistair Cockburn于2005年在其博客中提出了“端口与适配器”架构，建议使用“端口”隔离应用输入/输出的对象/方式，旨在保护应用不会由于部署方式、底层技术的变化而快速腐化，无法演化前进。在本地分享中，我将使用一个实际案例，解释该架构的使用方式以及其和领域驱动设计的互补性。'
       },
       {
         'img': '../resource/zhangyi.jpeg',

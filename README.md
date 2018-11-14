@@ -159,7 +159,11 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 <td colspan="6">
 
-KEYNOTE 1: Open Talk
+**KEYNOTE1: Beyond Uncertainty, Design from Domain Perspective**
+
+Wei David Wang
+
+DDD China 联合发起人，ThoughtWorks资深架构师
 
 </td>
 
@@ -175,49 +179,49 @@ SESSION
 
 <td>
 
-TRACK1
+**TRACK1**
 
-领域驱动设计与企业应用架构
-
-</td>
-
-<td>
-
-TRACK2
-
-领域驱动的业务中台
+**领域驱动设计与企业应用架构**
 
 </td>
 
 <td>
 
-TRACK3
+**TRACK2**
 
-领域统一语言的实践模式
-
-</td>
-
-<td>
-
-TRACK4
-
-领域驱动设计与架构师
+**领域驱动的业务中台**
 
 </td>
 
 <td>
 
-TRACK5
+**TRACK3**
 
-领域驱动设计与演进式架构
+**领域统一语言的实践模式**
 
 </td>
 
 <td>
 
-TRACK6
+**TRACK4**
 
-领域驱动与反应式架构
+**领域驱动设计与架构师**
+
+</td>
+
+<td>
+
+**TRACK5**
+
+**领域驱动设计与演进式架构**
+
+</td>
+
+<td>
+
+**TRACK6**
+
+**领域驱动与反应式架构**
 
 </td>
 
@@ -259,7 +263,7 @@ ThoughtWorks 高级咨询师
 
 王鹏
 
-华为公司云计算培训方案开发与交付负责人
+华为公司LS云计算培训方案架构师
 
 </td>
 
@@ -275,11 +279,11 @@ ThoughtWorks 高级咨询师
 
 <td>
 
-CQRS、Event Sourcing和领域驱动设计的渊源
+DDD在旅游电商架构演进中的实践
 
-周宇刚
+徐泼
 
-ThoughtWorks高级咨询师
+美团酒旅研发中心高级技术专家
 
 </td>
 
@@ -315,7 +319,11 @@ ThoughtWorks高级咨询师
 
 <td>
 
-TBC
+演进式架构的平台化落地
+
+姚安峰
+
+ThoughtWorks 首席咨询师
 
 </td>
 
@@ -335,7 +343,7 @@ ThoughtWorks高级咨询师
 
 姚晓峰
 
-美团配送技术部架构师
+美团配送技术架构部经理
 
 </td>
 
@@ -381,7 +389,11 @@ UMLChina创始人，首席专家
 
 <td>
 
-TBC
+从性能优化看中台建设
+
+梅雪松
+
+ThoughtWorks 资深咨询师
 
 </td>
 
@@ -411,13 +423,17 @@ ThoughtWorks 资深咨询师
 
 白彦磊
 
-广联达科技股份有限公司技术架构部经理
+广联达科技股份有限公司云计量技术架构部经理
 
 </td>
 
 <td>
 
-TBC
+Every Entity as A Microservice
+
+陶文
+
+滴滴出行平台技术部首席架构师
 
 </td>
 
@@ -449,7 +465,7 @@ Lunch & Break
 
 <td>
 
-拥抱Kubernetes：领域模型与内核设计
+应用DDD/DCI构建高性能AI推理引擎
 
 刘光聪
 
@@ -482,11 +498,11 @@ ThoughtWorks软件工程师
 
 <td>
 
-DDD在旅游电商架构演进中的实践
+端口和适配器架构：DDD好帮手
 
-徐泼
+周宇刚
 
-美团酒旅研发中心高级技术专家
+ThoughtWorks高级咨询师
 
 </td>
 
@@ -508,7 +524,11 @@ TBC
 
 <td>
 
-TBC
+当我们在谈论业务架构时，我们到底在谈论什么
+
+亢江妹
+
+ThoughtWorks精益产品创新咨询师、首席商业分析师
 
 </td>
 
@@ -526,7 +546,11 @@ TBC
 
 <td>
 
-TBC
+DDD实践中的那些坑
+
+王立
+
+腾讯微信支付平台架构中心T4级专家
 
 </td>
 
@@ -594,7 +618,7 @@ DDD Europe主要讲师之一
 
 <td colspan="6">
 
-**KEYNOTE3: TBC**
+**KEYNOTE3: IT Enabling Digitalization**
 
 Dr. Stefan Eberhardt
 
