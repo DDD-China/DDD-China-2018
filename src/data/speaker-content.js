@@ -18,8 +18,8 @@ var speakers = [
       'producer-name': '周宇刚',
       'producer-introduction': 'ThoughtWorks高级咨询师',
       'producer-information': 'ThoughtWorks高级咨询师，DDD实践家 10年企业级应用开发经验，主要负责软件交付和持续交付咨询。从09年开始关注领域驱动设计，是Stack Overflow DDD标签 All Time Top Answerer 之一，曾在多个行业领域中实战过DDD。',
-      'producer-topic': 'CQRS、Event Sourcing和领域驱动设计的渊源',
-      'topic-information': '在微观的OOP设计中，有查询和命令分离的说法。在架构设计中，也有读写模型分离的风格。本演讲旨在向中国领域驱动设计社区介绍CQRS（查询、命令职责分离）及其常见的事件溯源架构风格，以及这两个架构风格对领域驱动设计的促进',
+      'producer-topic': '端口和适配器架构：DDD好帮手',
+      'topic-information': 'Alistair Cockburn于2005年在其博客中提出了“端口与适配器”架构，建议使用“端口”隔离应用输入/输出的对象/方式，旨在保护应用不会由于部署方式、底层技术的变化而快速腐化，无法演化前进。在本地分享中，我将使用一个实际案例，解释该架构的使用方式以及其和领域驱动设计的互补性。',
     }, {
       'producer-img': '../resource/zhouyugang.jpeg',
       'producer-name': '周宇刚',

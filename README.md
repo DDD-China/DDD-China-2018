@@ -159,7 +159,7 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 <td colspan="6">
 
-Beyond Uncertainty, Design from Domain Perspective
+**KEYNOTE1: Beyond Uncertainty, Design from Domain Perspective**
 
 Wei David Wang
 
@@ -429,7 +429,11 @@ ThoughtWorks 资深咨询师
 
 <td>
 
-TBC
+Every Entity as A Microservice
+
+陶文
+
+滴滴出行平台技术部首席架构师
 
 </td>
 
@@ -494,7 +498,7 @@ ThoughtWorks软件工程师
 
 <td>
 
-CQRS、Event Sourcing和领域驱动设计的渊源
+端口和适配器架构：DDD好帮手
 
 周宇刚
 
