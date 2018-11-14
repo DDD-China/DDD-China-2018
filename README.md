@@ -221,7 +221,7 @@ TRACK5
 
 TRACK6
 
-领域驱动与响应式设计
+领域驱动与反应式架构
 
 </td>
 
@@ -263,7 +263,7 @@ ThoughtWorks 高级咨询师
 
 王鹏
 
-华为公司云计算培训方案开发与交付负责人
+华为公司LS云计算培训方案架构师
 
 </td>
 
@@ -279,11 +279,11 @@ ThoughtWorks 高级咨询师
 
 <td>
 
-CQRS、Event Sourcing和领域驱动设计的渊源
+DDD在旅游电商架构演进中的实践
 
-周宇刚
+徐泼
 
-ThoughtWorks高级咨询师
+美团酒旅研发中心高级技术专家
 
 </td>
 
@@ -339,7 +339,7 @@ ThoughtWorks高级咨询师
 
 姚晓峰
 
-美团配送技术部架构师
+美团配送技术架构部经理
 
 </td>
 
@@ -415,7 +415,7 @@ ThoughtWorks 资深咨询师
 
 白彦磊
 
-广联达科技股份有限公司技术架构部经理
+广联达科技股份有限公司云计量技术架构部经理
 
 </td>
 
@@ -453,7 +453,7 @@ Lunch & Break
 
 <td>
 
-拥抱Kubernetes：领域模型与内核设计
+应用DDD/DCI构建高性能AI推理引擎
 
 刘光聪
 
@@ -486,11 +486,11 @@ ThoughtWorks软件工程师
 
 <td>
 
-DDD在旅游电商架构演进中的实践
+CQRS、Event Sourcing和领域驱动设计的渊源
 
-徐泼
+周宇刚
 
-美团酒旅研发中心高级技术专家
+ThoughtWorks高级咨询师
 
 </td>
 
@@ -534,7 +534,7 @@ DDD实践中的那些坑
 
 王立
 
-腾讯科技深圳有限公司微信支付技术架构组技术专家
+腾讯微信支付平台架构中心T4级专家
 
 </td>
 
@@ -602,7 +602,7 @@ DDD Europe主要讲师之一
 
 <td colspan="6">
 
-**KEYNOTE3: IT enabling digitalization**
+**KEYNOTE3: IT Enabling Digitalization**
 
 Dr. Stefan Eberhardt
 

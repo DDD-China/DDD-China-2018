@@ -12,13 +12,8 @@ var producers = [
         'name': '刘光聪',
         'introduction': '中兴通讯技术规划部资深系统架构师',
         'information': '敏捷技术教练；就职于中兴通讯，任职资深系统架构师，致力于机器学习算法理论的研究与应用实践；Linux基金会Acumos AI项目TSC（技术控制委员会）成员；热衷于敏捷软件开发，极限编程实践。',
-        'topic': '拥抱Kubernetes：领域模型与内核设计',
-        'topic-information': '阐述Kubernetes系统架构与核心原理，挖掘Kubernetes内在的领域模型，揭开Kubernetes运行时的核心机制。' +
-        '<ul>' +
-        '<li>1.深入理解Kubernetes的系统架构与未来演进趋势，从DDD的视角挖掘Kubernetes设计的精髓</li>' +
-        '<li>2.通过核心领域对象的剖析，深入Kubernetes运行时的内核，一览容器编排实现的核心技术</li>' +
-        '<li>3.深入探讨诸如Kubernetes大型软件系统中DDD方法论的实践，及其微服务架构的具体应用。</li>' +
-        '</ul>'
+        'topic': '应用DDD/DCI构建高性能AI推理引擎',
+        'topic-information': '机器学习主要包括训练和推理两个基本过程，本次演讲重点关注推理引擎的优化和实现技术。重点介绍AI推理服务的架构设计与领域模型，探究DDD在C++领域的实现模式。'
       }
     ]
   },
@@ -98,7 +93,7 @@ var producers = [
     'producer-name': '许晓斌',
     'producer-introduction': '阿里巴巴高级技术专家',
     'producer-information': '<p>阿里巴巴/AliExpress 高级技术专家，从事微服务，DevOps，Java研发相关工作。著有《Maven实战》，并参与翻译《Cucumber，行为驱动开发》《七周七语言续》等书。</p>' + '<p>LinkedIn: https://www.linkedin.com/in/juvenxu/</p>',
-    'producer-topic': '领域驱动与响应式设计',
+    'producer-topic': '领域驱动与反应式架构',
     'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在响应式设计中起到的作用。',
   }
 ]
