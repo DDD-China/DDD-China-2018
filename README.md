@@ -506,7 +506,11 @@ ThoughtWorks高级咨询师
 
 <td>
 
-TBC
+物联网平台的反应式设计
+
+唐成
+
+ThoughtWorks  IoT 团队技术专家
 
 </td>
 
