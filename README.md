@@ -387,7 +387,11 @@ UMLChina创始人，首席专家
 
 <td>
 
-TBC
+出行生态系统中台化演进的DDD实践
+
+李腾 & 黄权彬
+
+ThoughtWorks资深企业系统架构师
 
 </td>
 
