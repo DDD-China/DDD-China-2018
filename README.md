@@ -163,7 +163,7 @@ ThoughtWorks资深咨询顾问。王威曾先后为国内外金融、电信、�
 
 Wei David Wang
 
-DDD China 联合发起人，ThoughtWorks资深架构师
+DDD China 联合发起人，ThoughtWorks首席架构师
 
 </td>
 
