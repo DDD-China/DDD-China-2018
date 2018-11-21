@@ -554,7 +554,11 @@ ThoughtWorks高级咨询师
 
 <td>
 
-TBC
+系统分层模型适配实践
+
+吴雪峰
+
+ThoughtWorks资深架构咨询师
 
 </td>
 
