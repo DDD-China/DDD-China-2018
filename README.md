@@ -540,7 +540,11 @@ ThoughtWorks精益产品创新咨询师、首席商业分析师
 
 <td>
 
-TBC
+可视化的遗留系统微服务改造
+
+毛超
+
+ThoughtWorks高级咨询师
 
 </td>
 
