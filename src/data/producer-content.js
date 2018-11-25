@@ -20,7 +20,7 @@ var producers = [
   {
     'producer-img': '../resource/wangwei.jpeg',
     'producer-name': '王威',
-    'producer-introduction': 'ThoughtWorks资深软件架构师',
+    'producer-introduction': 'ThoughtWorks首席架构师',
     'producer-information': '曾为国内外电信设备制造、电信运营商、金融、能源、电子商务等一线企业提供敏捷转型、架构重构、架构评估、微服务架构咨询服务。先后主导参与了若干个微服务架构转型项目。',
     'producer-topic': '领域驱动的业务中台',
     'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',

@@ -401,4 +401,148 @@ var speakers = [
             'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',
         }
     ],
+    [
+        {
+            'producer-img': '../resource/speakers/xinghaitao.png',
+            'producer-name': '邢海涛',
+            'producer-introduction': '灵雀云企业应用架构部 首席微服务架构师',
+            'producer-information': '计算机应用硕士(英国), 灵雀云微服务首席专家，近20年软件开发经验，8年亚马逊高级软件工程师。个人专注PaaS应用和分布式系统架构设计。',
+            'producer-topic': '微服务的容器化实践',
+            'topic-information': '结合在灵雀云工作期间，为各行业客户设计并实施面向微服务的容器PaaS平台的经历，讲述Spring Cloud集成Kubernates的最佳实践，以及以Istio为代表的Service Mesh和Kubernates集成的前瞻探索。',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域驱动的业务中台',
+            'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',
+        }
+    ],
+    [
+        {
+            'producer-img': '../resource/speakers/maochao.png',
+            'producer-name': '毛超',
+            'producer-introduction': 'ThoughtWorks高级咨询师',
+            'producer-information': '多年一线开发和架构经验，在大型团队中担任Tech Lead和架构师。并曾为物流、在线教育，房地产、通信等领域的领军企业提供服务。在工作过程中先后参与了多个大型产品的系统架构设计与实施，为客户提供软件架构评估、大型遗留系统重构规划和实施、DDD、Micro Service架构转型规划等服务。',
+            'producer-topic': '可视化的遗留系统微服务改造',
+            'topic-information': '遗留系统通常在一个企业中有着特殊的含义，一方面它只管中烟，包含着丰富的业务知识，产生大量收益；另一方面它异常复杂，功能繁多，结构紊乱，无法快速响应变化，让开发人员望而却步。近些年微服务架构思想深入人心，越来越多的人开始使用微服务架构、DDD等在遗留系统上进行尝试，但在落地的战术层面却依然碰到诸如服务如何划分，代码耦合度过高，数据库大而复杂等一系列问题。这次分享我会尝试用一系列可视化方法和工具来回答这些问题，保证改造过程中的高可操作性。',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域驱动的业务中台',
+            'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',
+        }
+    ],
+    [
+        {
+            'producer-img': '../resource/speakers/liteng.png',
+            'producer-name': '李腾',
+            'producer-introduction': 'ThoughtWorks资深企业系统架构师',
+            'producer-information': '专注方向为企业信息架构设计，超过15年软件开发和行业咨询经验。先后为国内外电信、政府服务、零售、在线旅游行业的客户提供软件咨询和交付服务。作为技术管理顾问主导了多个大型开发团队的敏捷和微服务架构转型管理，对于企业大型遗留系统重构规划和实施有丰富的经验。',
+            'producer-topic': '出行生态系统中台化演进的DDD实践',
+            'topic-information': '出行领域正在涌现不同的业务形态，越来越多的参与方正在加入出行系统生态。当交易系统的后台开始中台化，并且进一步向生态支撑系统演进时，我们如何使用领域设计驱动的方法帮助可视化系统的演进过程，在系统重构过程中确定演进的方向，复杂生态支撑系统的中台设计又会面临什么新的挑战。我们将分享在一个真实系统演进过程中的相关实践',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域驱动的业务中台',
+            'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',
+        }
+    ],
+    [
+        {
+            'producer-img': '../resource/speakers/huangquanbin.png',
+            'producer-name': '黄权彬',
+            'producer-introduction': 'ThoughtWorks资深企业系统架构师',
+            'producer-information': '十年多开发与架构经验，近些年专注于微服务架构与领域驱动设计的实践，专注于分布式系统架构设计，具备多年金融领域专业的架构设计与技术改进经验，擅长JAVA技术栈。',
+            'producer-topic': '出行生态系统中台化演进的DDD实践',
+            'topic-information': '出行领域正在涌现不同的业务形态，越来越多的参与方正在加入出行系统生态。当交易系统的后台开始中台化，并且进一步向生态支撑系统演进时，我们如何使用领域设计驱动的方法帮助可视化系统的演进过程，在系统重构过程中确定演进的方向，复杂生态支撑系统的中台设计又会面临什么新的挑战。我们将分享在一个真实系统演进过程中的相关实践',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域驱动的业务中台',
+            'topic-information': '2014年，微服务概念的火热带动了DDD的概念被业界重新认知。在微服务架构设计中，DDD被认为是微服务架构设计的指导思想。我们将继续关注业界是如何通过领域驱动设计的方法，来指导微服务架构的落地和实践的。同时，我们也更加关注服务网格（Service Mesh)等最新技术实践，及其给服务设计带来的影响。',
+        }
+    ],
+    [
+        {
+            'producer-img': '../resource/speakers/jinming.png',
+            'producer-name': '金明',
+            'producer-introduction': '万留科技 CTO',
+            'producer-information': 'ScaleWorks 云创始人及首席架构师，原ThoughtWorks首席咨询师，拥有超过十年的互联网产品以及云平台的研发及管理经验，为国内外中国银行、支付宝等多家中大型企业提供了技术变革及数字化转型的咨询服务，多次在国内外软件大会上做主题演讲，并译有《敏捷软件开发实践》、《项目百态》等书籍。',
+            'producer-topic': '金融支付系统的改造之路',
+            'topic-information': '金融支付业务包含大量的支付产品，网银支付、扫码支付、快捷支付等等。不同的支付产品涉及到不同上通道的支付系统对接，并影响到下游商户的业务场景集成。来自技术、清算、计费、风控等方面的复杂性，让支付系统不断膨胀，使得支付系统的稳定性、可用性和可维护性都带来了很多挑战。在这个项目中，我们通过梳理支付产品的领域行为，沉淀出了统一的支付引擎，按照领域划分了微服务子系统，打通了系统用户的多个金融账户，形成了比较统一的支付中台系统。此外，我们移除了原系统的陈旧技术栈，实现了比较完整的DevOps、持续交付和生产实时监控。',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域统一语言的实践模式',
+            'topic-information': '领域驱动设计是建立在领域统一语言（Ubiquitous Language）的基础上的。如何能在业务、开发、运维等不同角色间，构建统一语言，并围绕容易语言构建模型，是很多DDD的实践者以及团队所关注的问题。在本专题中，我们将关注统一语言的发现和使用的过程，以及其为团队所带来的收益。',
+        }
+    ],
+    [
+        {
+            'producer-img': '../resource/speakers/wuxuefeng.png',
+            'producer-name': '吴雪峰',
+            'producer-introduction': 'ThoughtWorks资深架构咨询师',
+            'producer-information': '主要负责敏捷软件开发与软件架构设计。他具有10+年软件架构设计经验，从事于分布式系统、电子商务、医疗、电信行业的软件开发、架构设计及敏捷实践。擅长Java/Scala技术，DDD、微服务架构、Reactive分布式软件架构、DevOps以及精益实践。',
+            'producer-topic': '系统分层模型适配实践',
+            'topic-information': '架构腐化是系统开发过程中非常头疼的事情。使用DDD分层架构参考实践，可以在系统初始设计的时候领域明确出来。问题是开发过程中不知不觉层次模糊，那么架构师有没有实践能有效阻止架构腐化？本次Session从中国解放军踢正步得到灵感，介绍一个非常简单的实践，有效阻止分层架构腐化。',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域统一语言的实践模式',
+            'topic-information': '领域驱动设计是建立在领域统一语言（Ubiquitous Language）的基础上的。如何能在业务、开发、运维等不同角色间，构建统一语言，并围绕容易语言构建模型，是很多DDD的实践者以及团队所关注的问题。在本专题中，我们将关注统一语言的发现和使用的过程，以及其为团队所带来的收益。',
+        }
+    ],
+    [
+        {
+            'producer-img': '../resource/speakers/tangcheng.png',
+            'producer-name': '唐成',
+            'producer-introduction': 'ThoughtWorks IoT 团队技术专家',
+            'producer-information': '擅长于领域驱动设计，演进式软件架构。曾先后为国内外航空产业、汽车制造、电器制造等领域的领军企业提供软硬件架构咨询、大型遗留系统重构规划、微服务架构转型规划、软硬件系统交付等服务。他从事了 10 年的嵌入式系统设计开发和 5 年互联网系统设计开发工作，参与过大量各种类型的项目，因此在 IoT 领域积累了丰富的经验。',
+            'producer-topic': '物联网平台的反应式设计',
+            'topic-information': '物联网平台的天然属性决定了它需要面对业务规模的快速增长，在云端资源利用率、功能组件快速演进方面面临严峻挑战。反应式架构帮助人们构建具备即时响应、弹性、适应性及消息驱动特征的系统，在主流企业级软件开发中已开始起步，这样的架构能否应用在物联网平台中？ThoughtWorks IoT PaaS 在探索中前行。',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域驱动与反应式架构',
+            'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
+        }
+    ],
+    [
+        {
+            'producer-img': '../resource/speakers/xuxiaobin.jpeg',
+            'producer-name': '许晓斌',
+            'producer-introduction': '阿里巴巴AliExpress高级技术专家',
+            'producer-information': '目前在AliExpress从事微服务实施、研发效率提升相关工作。《Maven实战》作者，《Cucumber：行为驱动开发》合译者，曾经是Maven中央仓库的维护者，参与开发Maven仓库管理软件Nexus。推崇敏捷开发方法和DevOps的理念，关注Scalability、领域驱动设计、编程语言等技术领域。业余喜欢读书和咖啡。',
+            'producer-topic': '从微服务到 FaaS',
+            'topic-information': '随着微服务架构的普及，大量的组织从中受益并极大地提升了研发效率。伴随着巨型应用被拆分成很多的分布式应用，如何处理运维成本和分布式问题成了大家比较关心的问题，我们看到了 Spring Boot，Spring Cloud, Docker 和 Kubernetes 等技术成为了行业主流。至此我不禁开始反思，开发者真正想要的是什么？我们的业务开发真的应该关心 Kubernetes 吗？本主题由此展开讨论 serverless 和 FaaS 技术，分析行业产品，旨在探索其最核心的价值，以及这一技术会对我们技术架构会产生怎样深远的影响。',
+        },
+        {
+            'producer-img': '',
+            'producer-name': '',
+            'producer-introduction': '',
+            'producer-information': '',
+            'producer-topic': '领域驱动与反应式架构',
+            'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
+        }
+    ],
 ];
