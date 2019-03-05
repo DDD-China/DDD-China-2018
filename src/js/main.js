@@ -40,7 +40,7 @@ var TRANSLATION_LOCATIONS = {
     SPEAKER_INFO: '../en/speaker-info.html',
     WORKSHOP: '../en/topic-gathering.html',
     TOPIC_GATHERING: '../en/topic-gathering.html',
-    LOOK_BACK: '../en/look-back.html',
+    LOOK_BACK: '../en/look-back-2017.html',
     BOOKING_TICKETS: '../en/booking-tickets.html'
   },
   [LANGUAGE.ZH]: {
@@ -48,7 +48,7 @@ var TRANSLATION_LOCATIONS = {
     SPEAKER_INFO: '../zh/speaker-info.html',
     WORKSHOP: '../zh/topic-gathering.html',
     TOPIC_GATHERING: '../zh/topic-gathering.html',
-    LOOK_BACK: '../zh/look-back.html',
+    LOOK_BACK: '../zh/look-back-2017.html',
     BOOKING_TICKETS: '../zh/booking-tickets.html'
   }
 }
