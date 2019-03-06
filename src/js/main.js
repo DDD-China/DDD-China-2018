@@ -16,12 +16,16 @@ var NAV_ITEMS = {
       itemIndex: 4,
       title: 'TOPIC_GATHERING'
     },
-    LOOK_BACK: {
+    LOOK_BACK_2018: {
       itemIndex: 5,
-      title: 'LOOK_BACK'
+      title: 'LOOK_BACK_2018'
+    },
+    LOOK_BACK_2017: {
+      itemIndex: 6,
+      title: 'LOOK_BACK_2017'
     },
     TRANSLATION: {
-      itemIndex: 6,
+      itemIndex: 7,
       title: 'TRANSLATION'
     },
     BOOKING_TICKETS: {
@@ -40,7 +44,8 @@ var TRANSLATION_LOCATIONS = {
     SPEAKER_INFO: '../en/speaker-info.html',
     WORKSHOP: '../en/topic-gathering.html',
     TOPIC_GATHERING: '../en/topic-gathering.html',
-    LOOK_BACK: '../en/look-back-2017.html',
+    LOOK_BACK_2018: '../en/look-back-2018.html',
+    LOOK_BACK_2017: '../en/look-back-2017.html',
     BOOKING_TICKETS: '../en/booking-tickets.html'
   },
   [LANGUAGE.ZH]: {
@@ -48,7 +53,8 @@ var TRANSLATION_LOCATIONS = {
     SPEAKER_INFO: '../zh/speaker-info.html',
     WORKSHOP: '../zh/topic-gathering.html',
     TOPIC_GATHERING: '../zh/topic-gathering.html',
-    LOOK_BACK: '../zh/look-back-2017.html',
+    LOOK_BACK_2018: '../zh/look-back-2018.html',
+    LOOK_BACK_2017: '../zh/look-back-2017.html',
     BOOKING_TICKETS: '../zh/booking-tickets.html'
   }
 }
