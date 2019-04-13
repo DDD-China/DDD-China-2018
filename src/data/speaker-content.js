@@ -129,7 +129,7 @@ var speakers = [
         'producer-introduction': '',
         'producer-information': '',
         'producer-topic': '领域驱动与反应式架构',
-        'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
+        'topic-information': '在2017年的DDD峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
       }
     ],
     [{
@@ -308,7 +308,7 @@ var speakers = [
         'producer-introduction': '',
         'producer-information': '',
         'producer-topic': '领域驱动与反应式架构',
-        'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
+        'topic-information': '在2017年的DDD峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
       }
     ],
     [
@@ -362,7 +362,7 @@ var speakers = [
             'producer-introduction': '',
             'producer-information': '',
             'producer-topic': '领域驱动设计与反应式架构',
-            'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
+            'topic-information': '在2017年的DDD峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
         }
     ],
     [
@@ -524,7 +524,7 @@ var speakers = [
             'producer-introduction': '',
             'producer-information': '',
             'producer-topic': '领域驱动与反应式架构',
-            'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
+            'topic-information': '在2017年的DDD峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
         }
     ],
     [
@@ -542,7 +542,7 @@ var speakers = [
             'producer-introduction': '',
             'producer-information': '',
             'producer-topic': '领域驱动与反应式架构',
-            'topic-information': '在2017年的DDD中国峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
+            'topic-information': '在2017年的DDD峰会中，围绕领域驱动设计和函数式编程（Function Programming）的Unconference起到了意想不到的效果。与会者针对如何能够将DDD的原则和实践与FP结合到一起进行了深入的讨论。今年，我们将进一步关注DDD与FP、无服务器架构（Serverless）、流式编程（Flow based programming） 的结合点，希望能够一窥未来领域驱动设计在反应式架构中起到的作用。',
         }
     ],
 ];
