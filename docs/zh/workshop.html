@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>领域驱动设计峰会DDD-China</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="../lib/jquery-3.2.1.min.js"></script>
+    <link rel="icon" href="../resource/favicon.ico">
+    <style>
+        img.entry {
+            width: 100%;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+<div class="grid-wrapper">
+    <div class="grid">
+        <div class="grid-cell">
+            <div class="header_wrapper navbar">
+                <a class="header_logo" href="#"><div class="img"></div></a>
+                <div class="header_tabs">
+                    <ul class="menu-items">
+                        <li class="menu-item"><a href="index.html#agenda">2018 Conference</a></li>
+                        <li class="menu-item"><a href="./speaker-info.html">讲师介绍</a></li>
+                        <li class="menu-item"><a href="./workshop.html">工作坊</a></li>
+                        <li class="menu-item"><a href="./topic-gathering.html">提案征集</a></li>
+                        <li class="menu-item"><a href="./look-back-2017.html">2017峰会盛况回顾</a></li>
+                        <li class="menu-item"><a>中/EN</a></li>
+                    </ul>
+                </div>
+                <div class="color-gray" id="booking-ticket">
+                    <a class="color-text-white" href="booking-tickets.html" target="_blank">
+                        <span><img src="../resource/ticket_icon.png" alt="ticket"></span>购买门票</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="main-container">
+    <div class="grid-wrapper">
+        <a href="./workshop-2.html">
+        <img class="entry" src="../resource/workshop-2.jpg" alt="基于复杂性认知的设计思维工作坊"/>
+        </a>
+        <a href="./workshop-1.html">
+        <img class="entry" src="../resource/workshop-1.jpg" alt="领域驱动设计实战工作坊"/>
+        </a>
+        <a href="./workshop-3.html">
+        <img class="entry" src="../resource/workshop-3.jpg" alt="CloudNative 微服务实战工作坊"/>
+        </a>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    focusOn(NAV_ITEMS.WORKSHOP, LANGUAGE.EN);
+  })
+</script>
+</html>
